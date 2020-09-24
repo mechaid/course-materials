@@ -1,3 +1,5 @@
+# MySQL
+
 CREATE TABLE siswa (
     id INT NOT NULL AUTO_INCREMENT,
     nama VARCHAR(255),
@@ -30,3 +32,9 @@ INSERT INTO siswa VALUES
 (NULL, 'Latifah Cihujan', 2, 'Desa Airlancang Blok G2 No. 13', '2008-02-27', 5, '3201'),
 (NULL, 'Lisa Goodyear', 2, 'Jalan Raya Sakernas No. 281 A', '2007-09-18', 3, '3273')
 ;
+
+CREATE TABLE kode_wilayah (
+    kode VARCHAR(11),
+    nama VARCHAR(40),
+    tingkat TINYINT
+);
