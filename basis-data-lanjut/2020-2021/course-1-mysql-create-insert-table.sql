@@ -7,7 +7,8 @@ CREATE TABLE siswa (
     alamat VARCHAR(255),
     tanggal_lahir DATE,
     id_elemen_peminatan TINYINT,
-    kode_wilayah VARCHAR(10)
+    kode_wilayah VARCHAR(10),
+    PRIMARY KEY(id)
 );
 
 INSERT INTO siswa VALUES
