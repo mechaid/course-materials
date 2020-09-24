@@ -1,0 +1,81 @@
+# PostgreSQL
+
+CREATE TABLE siswa (
+    id SERIAL PRIMARY KEY,
+    nama VARCHAR(255),
+    jenis_kelamin SMALLINT,
+    alamat VARCHAR(255),
+    tanggal_lahir DATE,
+    id_elemen_peminatan SMALLINT,
+    kode_wilayah VARCHAR(10)
+);
+
+INSERT INTO siswa VALUES
+(NULL, 'Wawan Junaedi', 1, 'Komplek Rancacelsea no. 33', '2006-03-13', 3, '3273'),
+(NULL, 'Karsimah', 2, 'Jalan Jamparing Kulon 88 B', '2007-08-11', 6, '3204'),
+(NULL, 'Windy Zeroblast', 2, 'Jalan Kautamaan Sedekah no. 13', '2007-09-15', 1, '3277'),
+(NULL, 'Kankan Sukamtar', 1, 'Blok Kayu Jati 28B/66 RW 01 RT 03', '2006-01-28', 4, '3277'),
+(NULL, 'Ginyawa', 1, 'Jalan Paseman Legok No. 29 Babakan Hilir', '2007-11-04', 1, '3273'),
+(NULL, 'Pande Rereogan', 1, 'Jalan Kulitiba No. 2A', '2008-04-09', 1, '3277'),
+(NULL, 'Wakun Carmadi', 1, 'Jalan Daringlila No 9', '2007-04-28', 4, '3217'),
+(NULL, 'Vincent Vinal Vantasi', 1, 'Jl. Kersamanah Kidul No 33', '2007-12-21', 6, '3211'),
+(NULL, 'Wildan Andi P.', 1, 'Blok B6 No. 17 Komplek Pancawasra', '2007-06-04', 5, '3204'),
+(NULL, 'Selena Zainulmutakin', 2, 'Komplek Perlantaskorda Blok J3 No. 29', '2008-03-17', 6, '3273'),
+(NULL, 'Binoronggo Saswajiman', 1, 'Jl. Santosa Seharila No. 77 Blok C3', '2007-07-18', 2, '3273'),
+(NULL, 'Dolan', 1, 'Jalan Serengeti Raya No. 33', '2007-04-25', 6, '3205'),
+(NULL, 'Priyanka Ercel', 2, 'Jalan Golf Awis Rupiah No. 68 C', '2006-10-23', 6, '3277'),
+(NULL, 'Urassaya Lambada', 2, 'Komplek Tegalwacan Blok D3 No 6', '2007-09-08', 3, '3204'),
+(NULL, 'Miranda Syakifa', 2, 'Jl. Arawanah Raya 99 B', '2007-10-25', 4, '3204'),
+(NULL, 'Jungalijo Nganginosre', 1, 'RW 05 RT 07 Dusun Hejosanes Desa Sukmataja Kec Arantaua', '2007-03-16', 2, '3203'),
+(NULL, 'Kacaigar Windsdeep', 1, 'Jalan Terminal Barokah No. 6', '2007-04-21', 4, '3204'),
+(NULL, 'Siangas Has', 1, 'Dusun Wirotelu RT 03 RW 12 Desa Jaritu Kec. Awugcica', '2006-08-04', 1, '32'),
+(NULL, 'Latifah Cihujan', 2, 'Desa Airlancang Blok G2 No. 13', '2008-02-27', 5, '3201'),
+(NULL, 'Lisa Goodyear', 2, 'Jalan Raya Sakernas No. 281 A', '2007-09-18', 3, '3273');
+
+CREATE TABLE kode_wilayah (
+    kode VARCHAR(11),
+    nama VARCHAR(40),
+    tingkat SMALLINT
+);
+
+INSERT INTO kode_wilayah VALUES
+('3201', 'Kabupaten Bogor', 2),
+('3202', 'Kabupaten Sukabumi', 2),
+('3203', 'Kabupaten Cianjur', 2),
+('3204', 'Kabupaten Bandung', 2),
+('3205', 'Kabupaten Garut', 2),
+('3206', 'Kabupaten Tasikmalaya', 2),
+('3207', 'Kabupaten Ciamis', 2),
+('3208', 'Kabupaten Kuningan', 2),
+('3209', 'Kabupaten Cirebon', 2),
+('3210', 'Kabupaten Majalengka', 2),
+('3211', 'Kabupaten Sumedang', 2),
+('3212', 'Kabupaten Indramayu', 2),
+('3213', 'Kabupaten Subang', 2),
+('3214', 'Kabupaten Purwakarta', 2),
+('3215', 'Kabupaten Karawang', 2),
+('3216', 'Kabupaten Bekasi', 2),
+('3217', 'Kabupaten Bandung Barat', 2),
+('3218', 'Kabupaten Pangandaran', 2),
+('3271', 'Kota Bogor', 2),
+('3272', 'Kota Sukabumi', 2),
+('3273', 'Kota Bandung', 2),
+('3274', 'Kota Cirebon', 2),
+('3275', 'Kota Bekasi', 2),
+('3276', 'Kota Depok', 2),
+('3277', 'Kota Cimahi', 2),
+('3278', 'Kota Tasikmalaya', 2),
+('3279', 'Kota Banjar', 2);
+
+CREATE TABLE elemen (
+    id SERIAL PRIMARY KEY,
+    nama VARCHAR(40)
+);
+
+INSERT INTO elemen VALUES
+(NULL, 'Api'),
+(NULL, 'Angin'),
+(NULL, 'Petir'),
+(NULL, 'Bumi'),
+(NULL, 'Air'),
+(NULL, 'Perasaan');
