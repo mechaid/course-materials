@@ -39,3 +39,47 @@ CREATE TABLE kode_wilayah (
     nama VARCHAR(40),
     tingkat TINYINT
 );
+
+INSERT INTO kode_wilayah VALUES
+('3201', 'Kabupaten Bogor', 2),
+('3202', 'Kabupaten Bogor', 2),
+('3203', 'Kabupaten ', 2),
+('3204', 'Kabupaten ', 2),
+('3205', 'Kabupaten ', 2),
+('3206', 'Kabupaten ', 2),
+('3207', 'Kabupaten ', 2),
+('3208', 'Kabupaten ', 2),
+('3209', 'Kabupaten ', 2),
+('3210', 'Kabupaten ', 2),
+('3211', 'Kabupaten ', 2),
+('3212', 'Kabupaten ', 2),
+('3213', 'Kabupaten ', 2),
+('3214', 'Kabupaten ', 2),
+('3215', 'Kabupaten ', 2),
+('3216', 'Kabupaten ', 2),
+('3217', 'Kabupaten ', 2),
+('3218', 'Kabupaten ', 2),
+('3271', 'Kota ', 2),
+('3272', 'Kota ', 2),
+('3273', 'Kota ', 2),
+('3274', 'Kota ', 2),
+('3275', 'Kota ', 2),
+('3276', 'Kota ', 2),
+('3277', 'Kota ', 2),
+('3278', 'Kota ', 2),
+('3279', 'Kota ', 2);
+
+CREATE TABLE elemen (
+    id INT NOT NULL AUTO_INCREMENT,
+    nama VARCHAR(40),
+    PRIMARY KEY(id)
+);
+
+INSERT INTO elemen VALUES
+(NULL, 'Api'),
+(NULL, 'Angin'),
+(NULL, 'Petir'),
+(NULL, 'Bumi'),
+(NULL, 'Air'),
+(NULL, 'Perasaan');
+
