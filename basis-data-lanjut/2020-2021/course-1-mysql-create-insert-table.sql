@@ -1,5 +1,5 @@
 CREATE TABLE siswa (
-    id INT,
+    id INT NOT NULL AUTO_INCREMENT,
     nama VARCHAR(255),
     jenis_kelamin TINYINT,
     alamat VARCHAR(255),
@@ -23,10 +23,10 @@ INSERT INTO siswa VALUES
 (NULL, 'Dolan', 1, 'Jalan Serengeti Raya No. 33', '2007-04-25', 6, '3205'),
 (NULL, 'Priyanka Ercel', 2, 'Jalan Golf Awis Rupiah No. 68 C', '2006-10-23', 6, '3277'),
 (NULL, 'Urassaya Lambada', 2, 'Komplek Tegalwacan Blok D3 No 6', '2007-09-08', 3, '3204'),
-(NULL, '', _, '', '', _, '32'),
-(NULL, '', _, '', '', _, '32'),
-(NULL, '', _, '', '', _, '32'),
-(NULL, '', _, '', '', _, '32'),
-(NULL, '', _, '', '', _, '32'),
-(NULL, '', _, '', '', _, '32')
+(NULL, 'Miranda Syakifa', 2, 'Jl. Arawanah Raya 99 B', '2007-10-25', 4, '3204'),
+(NULL, 'Jungalijo Nganginosre', 1, 'RW 05 RT 07 Dusun Hejosanes Desa Sukmataja Kec Arantaua', '2007-03-16', 2, '3203'),
+(NULL, 'Kacaigar Windsdeep', 1, 'Jalan Terminal Barokah No. 6', '2007-04-21', 4, '3204'),
+(NULL, 'Siangas Has', 1, 'Dusun Wirotelu RT 03 RW 12 Desa Jaritu Kec. Awugcica', '2006-08-04', 1, '32'),
+(NULL, 'Latifah Cihujan', 2, 'Desa Airlancang Blok G2 No. 13', '2008-02-27', 5, '3201'),
+(NULL, 'Lisa Goodyear', 2, 'Jalan Raya Sakernas No. 281 A', '2007-09-18', 3, '3273')
 ;
