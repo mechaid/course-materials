@@ -11,14 +11,15 @@
     
   </head>
   <body>
-    <header>
-      <div id="nav-utama">
-        <div id="nav-utama-logo">
-          <div id="nav-utama-logo-tulisan">
+    <!-- Header dashboard -->
+    <header id="nav-atas">
+      <div class="container">
+        <div id="nav-atas-logo">
+          <div id="nav-atas-logo-tulisan">
             <p>Dashboard COVID-19 Indonesia</p>
           </div>
         </div>
-        <ul id="nav-utama-menu">
+        <ul id="nav-atas-menu">
           <li>
             <a href="#">Home</a>
           </li>
@@ -34,11 +35,37 @@
           <li>
             <a href="#">Kontak</a>
           </li>
+          <li>
+            <a href="#" class="button" id="button-download-app">Download App</a>
+          </li>
         </ul>
       </div>
     </header>
     
-    <footer>
+    <!-- Konten utama dashboard -->
+    <div id="konten">
+      <header>
+        <h1>Dashboard Statistik Kasus COVID-19 Indonesia</h1>
+        <small>Update Terakhir: Senin, 5 Okt 2020</small>
+      </header>
+      <section id="konten-rangkuman-kasus">
+        <div class="round-box">
+          <h4>Total terkonfirmasi</h4>
+        </div>
+        <div class="round-box">
+          <h4>Isolasi / dalam perawatan</h4>
+        </div>
+        <div class="round-box">
+          <h4>Selesai isolasi / dalam perawatan</h4>
+        </div>
+        <div class="round-box">
+          <h4>Meninggal</h4>
+        </div>
+      </section>
+    </div>
+    
+    <!-- Bagian footer dari dashboard -->
+    <footer id="footer">
       <p>Tim Pengelola Dashboard COVID-19 Indonesia</p>
     </footer> 
   </body>
