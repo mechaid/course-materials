@@ -1,5 +1,9 @@
 # Praktikum Web - Pertemuan 3
 
+## File terkait
+- [Download file HTML nya](https://raw.githubusercontent.com/mechaid/course-materials/master/praktikum-web/2020-2021/pertemuan3-dashboard-covid-19.html)
+- [Download file CSS nya](https://raw.githubusercontent.com/mechaid/course-materials/master/praktikum-web/2020-2021/pertemuan3-dashboard-covid-19.css)
+
 ## Materi terkait
 - Basic Selection : [Selectors - W3Schools](https://www.w3schools.com/cssref/css_selectors.asp)
 - Basic Layout 
