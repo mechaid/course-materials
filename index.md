@@ -1,5 +1,11 @@
 # Materi Kuliah
 
+## Mata Kuliah Dasar Umum
+
+- Bahasa Inggris
+- Tata Tulis Karya Ilmiah
+- Dasar Pemrograman Untuk Kelas 5 SD
+
 ## Teknik Informatika
 
 - [Basis Data Lanjut](/course-materials/basis-data-lanjut/2020-2021/)
