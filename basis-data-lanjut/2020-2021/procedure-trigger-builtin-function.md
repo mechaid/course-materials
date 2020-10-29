@@ -13,7 +13,9 @@
 Gambar apakah itu ?
 Ya, itu gambar kulkas
 
-**Stored Procedure**, atau disebut juga **Procedure** dalam basis data dapat diibaratkan sebagai sebuah 'Kulkas' dari perintah-perintah SQL. Capek capek tulis perintah SQL, kemudian hari dibutuhkan untuk digunakan kembali, teman-teman dapat menyimpannya sebagai **Procedure**.
+**Stored Procedure**, atau disebut juga **Procedure** dalam basis data dapat diibaratkan sebagai sebuah 'Kulkas' dari perintah-perintah SQL. 
+
+Capek capek tulis perintah SQL, teman-teman dapat menyimpannya sebagai **Procedure** agar dapat digunakan kembali di kemudian hari. Tidak usah mikir lagi 😃
 
 
 ## Trigger
@@ -24,6 +26,7 @@ Ya, itu gambar kulkas
 
 Gambar apakah itu ?
 Ya, itu gambar wc
+
 Kapan kita tiba-tiba berlari ke wc ?
 
 ## Built-in Function
