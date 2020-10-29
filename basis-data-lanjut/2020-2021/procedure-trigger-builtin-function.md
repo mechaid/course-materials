@@ -17,6 +17,12 @@ Ya, itu gambar kulkas
 
 Capek capek tulis perintah SQL, teman-teman dapat menyimpannya sebagai **Procedure** agar dapat digunakan kembali di kemudian hari. Tidak usah mikir lagi 😃
 
+### Jadi, Apa itu Procedure ?
+
+Untuk keperluan copy paste PR dan tugas, ini pengertian Procedure :
+
+> Procedure adalah mekanisme penyimpanan perintah SQL agar dapat dipanggil di kemudian waktu.
+
 
 ## Trigger
 ---
