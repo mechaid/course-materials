@@ -13,7 +13,8 @@
 - [Basis Data Lanjut](/course-materials/basis-data-lanjut/2020-2021/)
 - [Kecerdasan Buatan](/course-materials/kecerdasan-buatan/2020-2021/)
 - Data Mining
-- Pembelajaran Mesin
+- Dasar Pembelajaran Mesin
+- Pembelajaran Mesin Lanjut
 - Computer Vision
 - Komputasi Evolusioner
 - Pemrosesan Bahasa Alami
