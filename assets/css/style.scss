@@ -7,7 +7,8 @@ $main-background: #000;
 $secondary-background: #111;
 $main-text: #aaa;
 $base-yellow: #ffeeaa;
-$base-pink: #d398ae; /*#ffb0cf*/
+$darker-pink: #d398ae;
+$base-pink: #ffb0cf;
 
 body {
   color: $main-text;
@@ -15,6 +16,10 @@ body {
 }
 
 a {
+  color: $darker-pink;
+}
+
+a:hover {
   color: $base-pink;
 }
 
