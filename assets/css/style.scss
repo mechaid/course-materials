@@ -28,6 +28,11 @@ a:hover {
   border-color: rgba(0,0,0,0.2);
 }
 
+.btn:hover {
+  color: rgba(0,0,0,1);
+  border-color: rgba(0,0,0,0.6);
+}
+
 .page-header {
   padding: 1rem 1rem;
   color: $main-background;
