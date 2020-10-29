@@ -1,4 +1,8 @@
-# Basis Data Lanjut
+# 📚 Basis Data Lanjut
+
+🖥️ [Materi Kuliah](../../)
+
+---
 
 1. [Introduksi dan review basis data](introduksi-dan-review-basis-data)
 2. SQL lanjutan 1 - Join, union, agregasi
