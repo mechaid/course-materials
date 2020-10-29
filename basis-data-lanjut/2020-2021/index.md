@@ -1,4 +1,4 @@
-# 📚 Basis Data Lanjut
+# Basis Data Lanjut
 
 🖥️ [Materi Kuliah](../../)
 
