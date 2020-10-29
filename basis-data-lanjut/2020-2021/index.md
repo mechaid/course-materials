@@ -1,6 +1,6 @@
 # Basis Data Lanjut
 
-1. Introduksi dan review basis data
+1. [Introduksi dan review basis data](introduksi-dan-review-basis-data)
 2. SQL lanjutan 1 - Join, union, agregasi
 3. SQL lanjutan 2 - Subquery, case, CRUD lanjutan 
 4. SQL lanjutan 3 - Trigger, procedure, built-in function
