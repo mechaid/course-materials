@@ -7,7 +7,7 @@
 ## Procedure
 ---
 
-### Mengenal Procedure pada Basis Data
+### Intermezo
 ![Kulkas - Unsplash.com @jamillatrach](https://images.unsplash.com/photo-1571175443880-49e1d25b2bc5?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80)
 
 Gambar apakah itu ?
@@ -17,9 +17,7 @@ Ya, itu gambar kulkas
 
 Capek capek tulis perintah SQL, teman-teman dapat menyimpannya sebagai **Procedure** agar dapat digunakan kembali di kemudian hari. Tidak usah mikir lagi 😃
 
-### Jadi, Apa itu Procedure ?
-
-Untuk keperluan copy paste PR dan tugas, ini pengertian Procedure :
+### Pengertian
 
 > Procedure adalah mekanisme penyimpanan perintah SQL agar dapat dipanggil di kemudian waktu.
 
@@ -27,7 +25,7 @@ Untuk keperluan copy paste PR dan tugas, ini pengertian Procedure :
 ## Trigger
 ---
 
-### Mengenal Trigger pada Basis Data
+### Intermezo
 ![Toilet - Unsplash.com](https://images.unsplash.com/photo-1587527901949-ab0341697c1e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=80)
 
 Gambar apakah itu ?
@@ -38,7 +36,7 @@ Kapan kita tiba-tiba berlari ke wc ?
 ## Built-in Function
 ---
 
-### Mengenal Built-in Function pada Basis Data
+### Intermezo
 ![Borma Toserba - Instagram Borma Dago @bormadagotoserba]({{site.baseurl}}/basis-data-lanjut/2020-2021/borma-toserba.png)
 
 Itu gambar Toserba BORMA. Apa hubungan antar built-in function nya basis data, dengan Toserba BORMA ?
