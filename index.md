@@ -2,9 +2,11 @@
 
 ## Mata Kuliah Dasar Umum
 
-- Bahasa Inggris
+- Bahasa Inggris Teknik
 - Tata Tulis Karya Ilmiah
+- Pembelajaran Multimedia
 - Dasar Pemrograman Untuk Kelas 5 SD
+- Kalkulus Untuk Kelas 5 SD
 
 ## Teknik Informatika
 
