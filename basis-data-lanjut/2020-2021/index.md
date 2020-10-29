@@ -4,6 +4,8 @@
 
 ---
 
+## Pertemuan
+
 1. [Introduksi dan review basis data](introduksi-dan-review-basis-data)
 2. SQL lanjutan 1 - Join, union, agregasi
 3. SQL lanjutan 2 - Subquery, case, CRUD lanjutan 
@@ -18,3 +20,10 @@
 12. Data warehouse
 13. Data mining
 14. Layanan cloud dan hybrid
+
+## Buku Rujukan
+
+- Database System Concepts - Silberschatz
+- A Deep Dive Into How Distributed Data Systems Work - Alex Petrov
+- Database Management Systems - Ramakrishnan
+- Transactional Information Systems: Theory, Algorithms, and the Practice of Concurrency Control and Recovery - Gerhard Weikum
