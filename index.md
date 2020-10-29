@@ -13,6 +13,9 @@
 - [Basis Data Lanjut](/course-materials/basis-data-lanjut/2020-2021/)
 - [Kecerdasan Buatan](/course-materials/kecerdasan-buatan/2020-2021/)
 - Data Mining
+- Pembelajaran Mesin
+- Computer Vision
+- Pemrosesan Bahasa Alami / Natural Language Processing (NLP)
 - Pemrograman Web
 - Jaringan Komputer
 
