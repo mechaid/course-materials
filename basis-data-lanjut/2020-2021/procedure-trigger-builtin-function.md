@@ -19,5 +19,12 @@ Ya, itu gambar kulkas
 ## Trigger
 ---
 
+### Mengenal Trigger pada Basis Data
+![Toilet - Unsplash.com](https://images.unsplash.com/photo-1587527901949-ab0341697c1e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=80)
+
+Gambar apakah itu ?
+Ya, itu gambar wc
+Kapan kita tiba-tiba berlari ke wc ?
+
 ## Built-in Function
 ---
