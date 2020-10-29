@@ -15,7 +15,7 @@
 - Data Mining
 - Pembelajaran Mesin
 - Computer Vision
-- Pemrosesan Bahasa Alami / Natural Language Processing (NLP)
+- Pemrosesan Bahasa Alami
 - Pemrograman Web
 - Jaringan Komputer
 
