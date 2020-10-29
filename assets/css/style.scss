@@ -1,0 +1,45 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+$main-background: #000;
+$secondary-background: #111;
+$main-text: #000;
+$base-yellow: #ffeeaa;
+$base-pink: #ffb0cf;
+
+body {
+  color: $main-text;
+  background-color: $main-background;
+}
+
+a {
+  color: $base-pink;
+}
+
+.btn {
+  color: rgba(0,0,0,0.7);
+  border-color: rgba(0,0,0,0.2);
+}
+
+.page-header {
+  background-color: #fea;
+  background-image: linear-gradient(120deg, $base-yellow, $base-pink);
+}
+
+.main-content {
+  h1, h2, h3, h4, h5, h6 {
+   color: $base-yellow;
+  }
+  
+  hr {
+    background-color: $base-yellow;
+    border: 0;
+  }
+  
+  blockquote {
+    border-left: 0.3rem solid $base-pink;
+    background-color: $secondary-background;
+  }
+}
