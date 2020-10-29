@@ -15,6 +15,7 @@
 - Data Mining
 - Pembelajaran Mesin
 - Computer Vision
+- Komputasi Evolusioner
 - Pemrosesan Bahasa Alami
 - Pemrograman Web
 - Jaringan Komputer
