@@ -1,3 +1,10 @@
+---
+layout: post
+title: Silabus Basis Data Lanjut
+description: blablabla
+tags: database big-data nosql
+---
+
 # Basis Data Lanjut
 
 🖥️ [Materi Kuliah](../../)
