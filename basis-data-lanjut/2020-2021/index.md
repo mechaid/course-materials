@@ -1,5 +1,5 @@
 ---
-layout: course-topic
+layout: course-index
 title: Silabus Basis Data Lanjut
 description: blablabla
 tags: database big-data nosql
