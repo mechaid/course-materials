@@ -1,14 +1,10 @@
 ---
 layout: course-index
 title: Silabus Basis Data Lanjut
-description: blablabla
+description: Silabus, buku rujukan dan open learning terkait mata kuliah Basis Data Lanjut
+course-parent: Basis Data Lanjut
+course-parent-url: ../2020-2021
 tags: database big-data nosql
----
-
-# Basis Data Lanjut
-
-🖥️ [Materi Kuliah](../../)
-
 ---
 
 ## Catatan Perkuliahan
