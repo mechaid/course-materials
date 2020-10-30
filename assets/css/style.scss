@@ -80,6 +80,18 @@ a:hover {
   }
 }
 
+.page-breadcrumb {
+  color: rgba(0,0,0,0.7);
+  
+  a:hover {
+    color: rgba(0,0,0,1);
+  }
+  
+  .breadcrumb-icon {
+    color: rgba(0,0,0,0.7);
+  }
+}
+
 .main-content {
   h1, h2, h3, h4, h5, h6 {
    color: $base-yellow;
@@ -94,13 +106,7 @@ a:hover {
     padding: 1rem;
     border-left: 0.3rem solid $base-pink;
     background-color: $secondary-background;
-  }
-  
-  .page-breadcrumb {
-    .breadcrumb-icon {
-      color: $base-pink;
-    }
-  }
+  }  
 }
 
 .site-footer {
