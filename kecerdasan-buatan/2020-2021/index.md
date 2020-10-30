@@ -4,7 +4,7 @@ title: Silabus Kecerdasan Buatan
 description: Silabus, buku rujukan dan open learning terkait mata kuliah Kecerdasan Buatan
 course-parent: Kecerdasan Buatan
 course-parent-url: ../2020-2021
-tags: database big-data nosql
+tags: ai artificial-intelligence syllabus
 ---
 
 ## Catatan Perkuliahan
