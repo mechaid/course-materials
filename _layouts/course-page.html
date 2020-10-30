@@ -4,9 +4,9 @@ layout: default
 
 {{ content }}
 
-<span>
+<div class="tags">
   {% for tag in page.tags %}
     {% capture tag_name %}{{ tag }}{% endcapture %}
     <span class="tag">{{ tag_name }}</span>
   {% endfor %}
-</span>
+</div>
