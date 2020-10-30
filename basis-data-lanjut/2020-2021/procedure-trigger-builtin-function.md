@@ -3,7 +3,8 @@ layout: course-page
 title: Procedure, Trigger, dan Built-in Function pada Basis Data
 description: Procedure, Trigger, dan Built-in Function pada Basis Data
 tags: database sql
-course-parent: Basis Data Lanjut | ../2020-2021
+course-parent: Basis Data Lanjut
+course-parent-url: ../2020-2021
 ---
 
 # Procedure, Trigger, dan Built-in Function
