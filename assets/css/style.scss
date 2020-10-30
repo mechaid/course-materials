@@ -56,6 +56,10 @@ a:hover {
   .site-sharing {
     margin-top: 1rem;
     
+    .sharing-button-pointer {
+      color: rgba(0,0,0,0.7);
+    }
+    
     .sharing-button.btn {
       display: inline-block;
       width: 2.5rem;
@@ -71,11 +75,7 @@ a:hover {
       }
     }
     
-    .sharing-button-pointer {
-      color: rgba(0,0,0,0.7);
-    }
   }
-  
 }
 
 .main-content {
