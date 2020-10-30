@@ -84,6 +84,10 @@ a:hover {
   margin-top: 2rem;
   color: rgba(0,0,0,0.7);
   
+  a {
+    color: rgba(0,0,0,0.7);
+  }
+  
   a:hover {
     color: rgba(0,0,0,1);
   }
