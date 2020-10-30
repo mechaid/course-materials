@@ -95,6 +95,12 @@ a:hover {
     border-left: 0.3rem solid $base-pink;
     background-color: $secondary-background;
   }
+  
+  .page-breadcrumb {
+    .breadcrumb-icon {
+      color: $base-pink;
+    }
+  }
 }
 
 .site-footer {
