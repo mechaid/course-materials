@@ -14,6 +14,7 @@ tags: ai artificial-intelligence syllabus
 ## Buku Rujukan
 
 - Artificial Intelligence: A Modern Approach - Russell
+- Artificial Intelligence - Patrick Winston
 
 ## Open Course Terkait
 
