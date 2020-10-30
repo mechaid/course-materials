@@ -1,16 +1,9 @@
 ---
 layout: course-page
-title: Procedure, Trigger, dan Built-in Function pada Basis Data
-description: Procedure, Trigger, dan Built-in Function pada Basis Data
-tags: database sql
+title: Procedure, Trigger, dan Built-in Function
+description: Procedure untuk menyimpan dan memanggil perintah SQL, Trigger memanggil perintah SQL berdasarkan event tertentu, Built-in Function menyediakan beragam fungsi untuk membantu query SQL
 course-parent: Basis Data Lanjut
 course-parent-url: ../2020-2021
----
-
-# Procedure, Trigger, dan Built-in Function
-
-🖥️ [Materi Kuliah](../../) / [Basis Data Lanjut](../2020-2021)
-
 ---
 
 ## Procedure
