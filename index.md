@@ -1,4 +1,6 @@
-# Materi Kuliah
+---
+title: Materi Kuliah
+---
 
 ## Mata Kuliah Dasar Umum
 
