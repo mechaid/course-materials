@@ -15,13 +15,19 @@ tags: [procedure, trigger, sql, database]
 
 **Stored Procedure**, atau disebut juga **Procedure** dalam basis data dapat diibaratkan sebagai sebuah 'Kulkas' dari perintah-perintah SQL. 
 
-### Pengertian
+### Pengertian Procedure
 
 > Procedure adalah mekanisme penyimpanan perintah SQL agar dapat dipanggil di kemudian waktu.
 
 > Procedure memiliki nama, parameter input, dan perintah SQL yang disimpan
 
 > Procedure mirip dengan function pada bahasa pemrogrman
+
+### Contoh Penulisan Procedure pada MySQL
+
+### Contoh Penulisan Procedure pada PostgreSQL
+
+### Contoh Penulisan Procedure pada SQL Server
 
 ## Trigger
 ---
