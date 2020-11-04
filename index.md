@@ -8,7 +8,7 @@ title: Materi Kuliah
 - Bahasa Inggris Teknik
 - Dasar Pemrograman
 - Tata Tulis Karya Ilmiah
-- Psikologi Marketing Digital
+- Psikologi Media Digital
 - Pembelajaran Multimedia
 - Kalkulus
 
