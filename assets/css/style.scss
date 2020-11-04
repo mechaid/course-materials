@@ -129,6 +129,34 @@ a:hover {
       margin-right: 0.5rem;
     }
   }
+  
+  details {
+    background: #222;
+    padding: 0rem;
+  }
+  
+  details[open=""] summary::before {
+    font-family: FontAwesome;
+    content: "\f0d7";
+    margin-right: 0.5rem;
+    width: 1rem;
+    display: inline-block;
+  }
+  
+  details summary::before {
+    font-family: FontAwesome;
+    content: "\f0da";
+    margin-right: 0.5rem;
+    width: 1rem;
+    display: inline-block;
+  }
+  
+  details summary {
+    background-color: #ffeeaa;
+    color: black;
+    padding: 0.5rem 1rem;
+  }
+  
 }
 
 .site-footer {
