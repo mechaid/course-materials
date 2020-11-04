@@ -155,7 +155,11 @@ a:hover {
     background-color: #ffeeaa;
     color: black;
     padding: 0.5rem 1rem;
+    list-style-type: none; /* Firefox */
   }
+  
+  details summary::-webkit-details-marker { display: none; } /* Chrome */
+  details summary::marker { display: none; }
   
 }
 
