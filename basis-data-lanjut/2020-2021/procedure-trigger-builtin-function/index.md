@@ -101,6 +101,19 @@ Pada contoh ini, procedure **Insert(Name, Hint)** dibuat untuk menambah data pad
   ```
 </details>
 
+
+<details><summary>CLICK ME</summary>
+<p>
+
+#### yes, even hidden code blocks!
+
+```python
+print("hello world!")
+```
+
+</p>
+</details>
+
 ## Trigger
 
 ### Intermezo
