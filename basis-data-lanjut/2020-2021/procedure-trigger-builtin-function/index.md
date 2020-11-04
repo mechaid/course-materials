@@ -18,7 +18,9 @@ tags: [procedure, trigger, sql, database]
 ### Pengertian
 
 > Procedure adalah mekanisme penyimpanan perintah SQL agar dapat dipanggil di kemudian waktu.
+
 > Procedure memiliki nama, parameter input, dan perintah SQL yang disimpan
+
 > Procedure mirip dengan function pada bahasa pemrogrman
 
 ## Trigger
