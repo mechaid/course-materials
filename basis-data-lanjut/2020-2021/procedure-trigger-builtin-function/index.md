@@ -21,6 +21,8 @@ tags: [procedure, trigger, sql, database]
 
 Procedure memiliki nama, parameter input, dan perintah SQL yang disimpan. Procedure mirip dengan function pada bahasa pemrogrman. Dengan penyimpanan procedure, perintah SQL yang panjang dapat disingkat menjadi satu perintah singkat.
 
+Terdapat perbedaan penulisan perintah SQL untuk penulisan procedure pada MySQL, PostgreSQL, SQL Server, ataupun SQL lainnya, namun secara konsep sama.
+
 ### Contoh Penulisan Procedure pada MySQL
 Contoh-contoh dibawah ini menggunakan [SQLiteonline.com](https://sqliteonline.com/), aplikasi simulasi SQL online untuk SQLite, MySQL / MariaDB, PostgreSQL dan SQL Server. SQLiteonline.com memiliki tabel contoh yaitu **demo**.
 
