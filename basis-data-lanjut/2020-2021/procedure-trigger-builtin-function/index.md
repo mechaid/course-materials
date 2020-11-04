@@ -42,7 +42,7 @@ Pada contoh ini, procedure **HitungDemo()** dibuat untuk menghitung jumlah data 
   ```
 
 #### Menambahkan Data Dengan Parameter
-Pada contoh ini, procedure **Insert(Name, Hint)** dibuat untuk menambah data pada tabel demo dengan parameter **Name** dan **Hint**
+Pada contoh ini, procedure **InsertDemo(Name, Hint)** dibuat untuk menambah data pada tabel demo dengan parameter **Name** dan **Hint**
 1. Buka [SQLiteonline.com](https://sqliteonline.com/)
 2. Klik **MariaDB**
 3. Klik **Click to connect**
