@@ -28,7 +28,7 @@ Contoh-contoh dibawah ini menggunakan [SQLiteonline.com](https://sqliteonline.co
 
 #### Menghitung Data
 Pada contoh ini, procedure **HitungDemo()** dibuat untuk menghitung jumlah data pada tabel demo. 
-1. Buka https://sqliteonline.com/
+1. Buka [SQLiteonline.com](https://sqliteonline.com/)
 2. Klik **MariaDB**
 3. Klik **Click to connect**
 4. Buat perintah SQL seperti di bawah ini untuk membuat procedure **HitungDemo()** yang didalamnya berisi perintah SQL untuk menghitung data pada tabel demo.
@@ -43,7 +43,7 @@ Pada contoh ini, procedure **HitungDemo()** dibuat untuk menghitung jumlah data 
 
 #### Menambahkan Data Dengan Parameter
 Pada contoh ini, procedure **Insert(Name, Hint)** dibuat untuk menambah data pada tabel demo dengan parameter **Name** dan **Hint**
-1. Buka https://sqliteonline.com/
+1. Buka [SQLiteonline.com](https://sqliteonline.com/)
 2. Klik **MariaDB**
 3. Klik **Click to connect**
 4. Buat perintah SQL seperti di bawah ini untuk membuat procedure **InsertDemo(Name, Hint)** yang memiliki dua parameter isian yaitu **Name** dan **Hint**. **InsertDemo(Name, Hint)** berisi perintah INSERT untuk menambahkan data Name dan Hint pada tabel demo.
@@ -57,8 +57,30 @@ Pada contoh ini, procedure **Insert(Name, Hint)** dibuat untuk menambah data pad
   ```
 
 ### Contoh Penulisan Procedure pada PostgreSQL
+Contoh-contoh dibawah ini menggunakan [SQLiteonline.com](https://sqliteonline.com/), aplikasi simulasi SQL online untuk SQLite, MySQL / MariaDB, PostgreSQL dan SQL Server. SQLiteonline.com memiliki tabel contoh yaitu **demo**.
+
+#### Menghitung Data
+Pada contoh ini, procedure **HitungDemo()** dibuat untuk menghitung jumlah data pada tabel demo. 
+1. Buka [SQLiteonline.com](https://sqliteonline.com/)
+2. Klik **PostgreSQL**
+3. Klik **Click to connect**
+4. Buat perintah SQL seperti di bawah ini untuk membuat procedure **HitungDemo()** yang didalamnya berisi perintah SQL untuk menghitung data pada tabel demo.
+  ```sql
+  CREATE PROCEDURE HitungDemo()
+  language plpgsql
+  AS $$
+  BEGIN
+  SELECT COUNT(*) AS total FROM demo;
+  END;$$
+  ```
+5. Gunakan perintah SQL di bawah ini untuk memanggil procedure **HitungDemo()** yang telah dibuat
+  ```sql
+  CALL HitungDemo();
+  ```
 
 ### Contoh Penulisan Procedure pada SQL Server
+
+---
 
 ## Trigger
 ---
