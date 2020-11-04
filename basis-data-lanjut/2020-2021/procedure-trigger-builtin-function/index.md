@@ -93,7 +93,10 @@ Pada contoh ini, procedure **Insert(Name, Hint)** dibuat untuk menambah data pad
   SELECT * FROM InsertDemo(7, 'Ujang', 'Menjual bubur tiap hari Senin, Rabu, Sabtu');
   ```
 
-### Contoh Penulisan Procedure pada SQL Server
+<details> 
+  <summary>Q1: What is the best Language in the World? </summary>
+   A1: JavaScript 
+</details>
 
 ---
 
