@@ -66,16 +66,14 @@ Pada contoh ini, procedure **HitungDemo()** dibuat untuk menghitung jumlah data 
 3. Klik **Click to connect**
 4. Buat perintah SQL seperti di bawah ini untuk membuat procedure **HitungDemo()** yang didalamnya berisi perintah SQL untuk menghitung data pada tabel demo.
   ```sql
-  CREATE PROCEDURE HitungDemo()
-  language plpgsql
-  AS $$
-  BEGIN
-  SELECT COUNT(*) AS total FROM demo;
-  END;$$
+CREATE OR REPLACE FUNCTION HitungDemo()
+RETURNS TABLE(total INT) AS $$
+  SELECT COUNT(*)::INT AS total FROM demo;
+$$ LANGUAGE sql;
   ```
-5. Gunakan perintah SQL di bawah ini untuk memanggil procedure **HitungDemo()** yang telah dibuat
+5. Gunakan perintah SQL di bawah ini untuk menampilkan data dari **HitungDemo()** yang telah dibuat
   ```sql
-  CALL HitungDemo();
+  SELECT * FROM HitungDemo();
   ```
 
 ### Contoh Penulisan Procedure pada SQL Server
