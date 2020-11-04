@@ -75,6 +75,23 @@ $$ LANGUAGE sql;
   ```sql
   SELECT * FROM HitungDemo();
   ```
+  
+#### Menambahkan Data Dengan Parameter
+Pada contoh ini, procedure **Insert(Name, Hint)** dibuat untuk menambah data pada tabel demo dengan parameter **Name** dan **Hint**
+1. Buka [SQLiteonline.com](https://sqliteonline.com/)
+2. Klik **PostgreSQL**
+3. Klik **Click to connect**
+4. Buat perintah SQL seperti di bawah ini untuk membuat procedure **InsertDemo(ID, Name, Hint)** yang memiliki tiga parameter isian yaitu **ID**, **Name** dan **Hint**. **InsertDemo(ID, Name, Hint)** berisi perintah INSERT untuk menambahkan data Name dan Hint pada tabel demo.
+  ```sql
+  CREATE OR REPLACE FUNCTION InsertDemo(_id INTEGER, _name VARCHAR(50), _hint VARCHAR(50))
+  RETURNS VOID AS $$
+    INSERT INTO demo VALUES(_id, _name, _hint);
+  $$ LANGUAGE sql;
+  ```
+5. Gunakan perintah SQL di bawah ini untuk memanggil procedure **InsertDemo(Name, Hint)** yang telah dibuat, untuk menambahkan data baru
+  ```sql
+  SELECT * FROM InsertDemo(7, 'Ujang', 'Menjual bubur tiap hari Senin, Rabu, Sabtu');
+  ```
 
 ### Contoh Penulisan Procedure pada SQL Server
 
