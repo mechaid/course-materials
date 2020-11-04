@@ -23,6 +23,9 @@ Procedure memiliki nama, parameter input, dan perintah SQL yang disimpan. Proced
 Terdapat perbedaan penulisan perintah SQL untuk penulisan procedure pada MySQL, PostgreSQL, SQL Server, ataupun SQL lainnya, namun secara konsep sama.
 
 ### Contoh Penulisan Procedure pada MySQL
+<details> 
+  <summary>Lihat Contoh Penulisan Procedure pada PostgreSQL</summary>
+
 Contoh-contoh dibawah ini menggunakan [SQLiteonline.com](https://sqliteonline.com/), aplikasi simulasi SQL online untuk SQLite, MySQL / MariaDB, PostgreSQL dan SQL Server. SQLiteonline.com memiliki tabel contoh yaitu **demo**.
 
 #### Menghitung Data
@@ -54,11 +57,12 @@ Pada contoh ini, procedure **InsertDemo(Name, Hint)** dibuat untuk menambah data
   ```sql
   CALL InsertDemo('Ujang', 'Menjual bubur tiap hari Senin, Rabu, Sabtu');
   ```
+</details>
 
+### Contoh Penulisan Procedure pada PostgreSQL
 <details> 
   <summary>Lihat Contoh Penulisan Procedure pada PostgreSQL</summary>
-  
-### Contoh Penulisan Procedure pada PostgreSQL
+
 Contoh-contoh dibawah ini menggunakan [SQLiteonline.com](https://sqliteonline.com/), aplikasi simulasi SQL online untuk SQLite, MySQL / MariaDB, PostgreSQL dan SQL Server. SQLiteonline.com memiliki tabel contoh yaitu **demo**.
 
 #### Menghitung Data
@@ -94,7 +98,6 @@ Pada contoh ini, procedure **Insert(Name, Hint)** dibuat untuk menambah data pad
   ```sql
   SELECT * FROM InsertDemo(7, 'Ujang', 'Menjual bubur tiap hari Senin, Rabu, Sabtu');
   ```
-
 </details>
 
 ## Trigger
