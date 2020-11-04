@@ -8,13 +8,19 @@ tags: [digital-media, marketing, psychology]
 ---
 
 ## Catatan Perkuliahan
-1. 
+1. Pengantar Psikologi Media Digital
+2. Motivasi dan Keterikatan
+3. Persuasi Publik
+4. Konflik, Drama, dan Pikiran Kritis
+5. Studi Kasus Youtube, Tik Tok dan Instagram
+6. Branding
 
 ## Buku Rujukan
 
 - Influence: The Psychology of Persuasion -  Robert B. Cialdini
 - Age of Propaganda: The Everyday Use and Abuse of Persuasion -  Anthony R. Pratkanis
 - LikeWar: The Weaponization of Social Media - P.W. Singer
+- Designing Brand Identity: An Essential Guide for the Whole Branding Team - Alina Wheeler
 - Crushing It!: How Great Entrepreneurs Build Their Business and Influence—and How You Can, Too - Gary Vaynerchuk
 - Ogilvy on Advertising - David Ogilvy
 
