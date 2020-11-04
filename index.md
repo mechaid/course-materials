@@ -5,9 +5,10 @@ title: Materi Kuliah
 ## Mata Kuliah Dasar Umum
 
 - Logika
+- Bahasa Inggris - Memahami Literatur Teknik
 - Dasar Pemrograman
-- Bahasa Inggris Teknik
 - Tata Tulis Karya Ilmiah
+- Psikologi Marketing Digital
 - Pembelajaran Multimedia
 - Kalkulus
 
