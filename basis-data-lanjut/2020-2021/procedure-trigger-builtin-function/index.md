@@ -19,18 +19,16 @@ tags: [procedure, trigger, sql, database]
 
 > Procedure adalah mekanisme penyimpanan perintah SQL agar dapat dipanggil di kemudian waktu.
 
-> Procedure memiliki nama, parameter input, dan perintah SQL yang disimpan
-
-> Procedure mirip dengan function pada bahasa pemrogrman
+Procedure memiliki nama, parameter input, dan perintah SQL yang disimpan. Procedure mirip dengan function pada bahasa pemrogrman. Dengan penyimpanan procedure, perintah SQL yang panjang dapat disingkat menjadi satu perintah singkat.
 
 ### Contoh Penulisan Procedure pada MySQL
 
 #### Menghitung Data
-
+Pada contoh ini, procedure **HitungDemo()** dibuat untuk menghitung jumlah data pada tabel demo. 
 1. Buka https://sqliteonline.com/
 2. Klik **MariaDB**
 3. Klik **Click to connect**
-4. Buat perintah SQL seperti di bawah ini untuk menghitung total data dari tabel demo
+4. Buat perintah SQL seperti di bawah ini untuk membuat procedure **HitungDemo()** yang didalamnya berisi perintah SQL untuk menghitung data pada tabel demo.
   ```sql
   CREATE PROCEDURE HitungDemo()
   SELECT COUNT(*) AS total FROM demo;
@@ -41,11 +39,11 @@ tags: [procedure, trigger, sql, database]
   ```
 
 #### Menambahkan Data Dengan Parameter
-
+Pada contoh ini, procedure **Insert(Name, Hint)** dibuat untuk menambah data pada tabel demo dengan parameter **Name** dan **Hint**
 1. Buka https://sqliteonline.com/
 2. Klik **MariaDB**
 3. Klik **Click to connect**
-4. Buat perintah SQL seperti di bawah ini. **InsertDemo(Name, Hint)** memiliki dua buah parameter isian yaitu **Name** dan **Hint**. **InsertDemo(Name, Hint)** berisi perintah INSERT untuk menambahkan data Name dan Hint pada tabel demo.
+4. Buat perintah SQL seperti di bawah ini untuk membuat procedure **InsertDemo(Name, Hint)** yang memiliki dua parameter isian yaitu **Name** dan **Hint**. **InsertDemo(Name, Hint)** berisi perintah INSERT untuk menambahkan data Name dan Hint pada tabel demo.
 
 ```sql
 CREATE PROCEDURE InsertDemo(IN Name VARCHAR(50), IN Hint VARCHAR(50))
