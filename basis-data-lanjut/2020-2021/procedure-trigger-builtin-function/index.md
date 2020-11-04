@@ -56,6 +56,9 @@ Pada contoh ini, procedure **InsertDemo(Name, Hint)** dibuat untuk menambah data
   CALL InsertDemo('Ujang', 'Menjual bubur tiap hari Senin, Rabu, Sabtu');
   ```
 
+<details> 
+  <summary>Lihat Contoh Penulisan Procedure pada PostgreSQL</summary>
+  
 ### Contoh Penulisan Procedure pada PostgreSQL
 Contoh-contoh dibawah ini menggunakan [SQLiteonline.com](https://sqliteonline.com/), aplikasi simulasi SQL online untuk SQLite, MySQL / MariaDB, PostgreSQL dan SQL Server. SQLiteonline.com memiliki tabel contoh yaitu **demo**.
 
@@ -93,12 +96,7 @@ Pada contoh ini, procedure **Insert(Name, Hint)** dibuat untuk menambah data pad
   SELECT * FROM InsertDemo(7, 'Ujang', 'Menjual bubur tiap hari Senin, Rabu, Sabtu');
   ```
 
-<details> 
-  <summary>Q1: What is the best Language in the World? </summary>
-   A1: JavaScript 
 </details>
-
----
 
 ## Trigger
 ---
