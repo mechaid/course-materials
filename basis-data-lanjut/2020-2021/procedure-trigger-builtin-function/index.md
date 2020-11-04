@@ -22,6 +22,7 @@ tags: [procedure, trigger, sql, database]
 Procedure memiliki nama, parameter input, dan perintah SQL yang disimpan. Procedure mirip dengan function pada bahasa pemrogrman. Dengan penyimpanan procedure, perintah SQL yang panjang dapat disingkat menjadi satu perintah singkat.
 
 ### Contoh Penulisan Procedure pada MySQL
+Contoh-contoh dibawah ini menggunakan [SQLiteonline.com](https://sqliteonline.com/), aplikasi simulasi SQL online. SQLiteonline.com memiliki tabel contoh yaitu **demo**.
 
 #### Menghitung Data
 Pada contoh ini, procedure **HitungDemo()** dibuat untuk menghitung jumlah data pada tabel demo. 
@@ -29,11 +30,13 @@ Pada contoh ini, procedure **HitungDemo()** dibuat untuk menghitung jumlah data 
 2. Klik **MariaDB**
 3. Klik **Click to connect**
 4. Buat perintah SQL seperti di bawah ini untuk membuat procedure **HitungDemo()** yang didalamnya berisi perintah SQL untuk menghitung data pada tabel demo.
+
   ```sql
   CREATE PROCEDURE HitungDemo()
   SELECT COUNT(*) AS total FROM demo;
   ```
 5. Gunakan perintah SQL di bawah ini untuk memanggil procedure **HitungDemo()** yang telah dibuat
+
   ```sql
   CALL HitungDemo();
   ```
@@ -45,15 +48,14 @@ Pada contoh ini, procedure **Insert(Name, Hint)** dibuat untuk menambah data pad
 3. Klik **Click to connect**
 4. Buat perintah SQL seperti di bawah ini untuk membuat procedure **InsertDemo(Name, Hint)** yang memiliki dua parameter isian yaitu **Name** dan **Hint**. **InsertDemo(Name, Hint)** berisi perintah INSERT untuk menambahkan data Name dan Hint pada tabel demo.
 
-```sql
-CREATE PROCEDURE InsertDemo(IN Name VARCHAR(50), IN Hint VARCHAR(50))
-INSERT INTO demo VALUES(NULL, Name, Hint);
-```
-
+  ```sql
+  CREATE PROCEDURE InsertDemo(IN Name VARCHAR(50), IN Hint VARCHAR(50))
+  INSERT INTO demo VALUES(NULL, Name, Hint);
+  ```
 5. Gunakan perintah SQL di bawah ini untuk memanggil procedure **InsertDemo(Name, Hint)** yang telah dibuat, untuk menambahkan data baru
-```sql
-CALL InsertDemo('Ujang', 'Menjual bubur tiap hari Senin, Rabu, Sabtu');
-```
+  ```sql
+  CALL InsertDemo('Ujang', 'Menjual bubur tiap hari Senin, Rabu, Sabtu');
+  ```
 
 ### Contoh Penulisan Procedure pada PostgreSQL
 
