@@ -25,6 +25,8 @@ tags: [procedure, trigger, sql, database]
 
 ### Contoh Penulisan Procedure pada MySQL
 
+#### Menghitung Data
+
 1. Buka https://sqliteonline.com/
 2. Klik **MariaDB**
 3. Klik **Click to connect**
@@ -39,6 +41,23 @@ SELECT COUNT(*) AS total FROM demo;
 
 ```sql
 CALL HitungDemo();
+```
+
+#### Menambahkan Data Dengan Parameter
+
+1. Buka https://sqliteonline.com/
+2. Klik **MariaDB**
+3. Klik **Click to connect**
+4. Buat perintah SQL seperti di bawah ini. **InsertDemo(Name, Hint)** memiliki dua buah parameter isian yaitu **Name** dan **Hint**. **InsertDemo(Name, Hint)** berisi perintah INSERT untuk menambahkan data Name dan Hint pada tabel demo.
+
+```sql
+CREATE PROCEDURE InsertDemo(IN Name VARCHAR(50), IN Hint VARCHAR(50))
+INSERT INTO demo VALUES(NULL, Name, Hint);
+```
+
+5. Gunakan perintah SQL di bawah ini untuk memanggil procedure **InsertDemo(Name, Hint)** yang telah dibuat, untuk menambahkan data baru
+```sql
+CALL InsertDemo('Ujang', 'Menjual bubur tiap hari Senin, Rabu, Sabtu');
 ```
 
 ### Contoh Penulisan Procedure pada PostgreSQL
