@@ -4,11 +4,12 @@ title: Materi Kuliah
 
 ## Mata Kuliah Dasar Umum
 
+- Logika
+- Dasar Pemrograman
 - Bahasa Inggris Teknik
 - Tata Tulis Karya Ilmiah
 - Pembelajaran Multimedia
-- Dasar Pemrograman Untuk Kelas 5 SD
-- Kalkulus Untuk Kelas 5 SD
+- Kalkulus
 
 ## Teknik Informatika
 
