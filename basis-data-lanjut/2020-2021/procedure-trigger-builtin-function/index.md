@@ -25,6 +25,22 @@ tags: [procedure, trigger, sql, database]
 
 ### Contoh Penulisan Procedure pada MySQL
 
+1. Buka https://sqliteonline.com/
+2. Klik **MariaDB**
+3. Klik **Click to connect**
+4. Buat perintah SQL seperti di bawah ini untuk menghitung total data dari tabel demo
+
+```sql
+CREATE PROCEDURE HitungDemo()
+SELECT COUNT(*) AS total FROM demo;
+```
+
+5. Gunakan perintah SQL di bawah ini untuk memanggil procedure **HitungDemo()** yang telah dibuat
+
+```sql
+CALL HitungDemo();
+```
+
 ### Contoh Penulisan Procedure pada PostgreSQL
 
 ### Contoh Penulisan Procedure pada SQL Server
