@@ -22,42 +22,41 @@ Procedure memiliki nama, parameter input, dan perintah SQL yang disimpan. Proced
 
 Terdapat perbedaan penulisan perintah SQL untuk penulisan procedure pada MySQL, PostgreSQL, SQL Server, ataupun SQL lainnya, namun secara konsep sama.
 
+### Contoh Penulisan Procedure pada MySQL
 <details> 
   <summary>Lihat Contoh Penulisan Procedure pada PostgreSQL</summary>
+  
+Contoh-contoh dibawah ini menggunakan [SQLiteonline.com](https://sqliteonline.com/), aplikasi simulasi SQL online untuk SQLite, MySQL / MariaDB, PostgreSQL dan SQL Server. SQLiteonline.com memiliki tabel contoh yaitu **demo**.
 
-  ### Contoh Penulisan Procedure pada MySQL
+#### Menghitung Data
+Pada contoh ini, procedure **HitungDemo()** dibuat untuk menghitung jumlah data pada tabel demo. 
+1. Buka [SQLiteonline.com](https://sqliteonline.com/)
+2. Klik **MariaDB**
+3. Klik **Click to connect**
+4. Buat perintah SQL seperti di bawah ini untuk membuat procedure **HitungDemo()** yang didalamnya berisi perintah SQL untuk menghitung data pada tabel demo.
+  ```sql
+  CREATE PROCEDURE HitungDemo()
+  SELECT COUNT(*) AS total FROM demo;
+  ```
+5. Gunakan perintah SQL di bawah ini untuk memanggil procedure **HitungDemo()** yang telah dibuat
+  ```sql
+  CALL HitungDemo();
+  ```
 
-  Contoh-contoh dibawah ini menggunakan [SQLiteonline.com](https://sqliteonline.com/), aplikasi simulasi SQL online untuk SQLite, MySQL / MariaDB, PostgreSQL dan SQL Server. SQLiteonline.com memiliki tabel contoh yaitu **demo**.
-
-  #### Menghitung Data
-  Pada contoh ini, procedure **HitungDemo()** dibuat untuk menghitung jumlah data pada tabel demo. 
-  1. Buka [SQLiteonline.com](https://sqliteonline.com/)
-  2. Klik **MariaDB**
-  3. Klik **Click to connect**
-  4. Buat perintah SQL seperti di bawah ini untuk membuat procedure **HitungDemo()** yang didalamnya berisi perintah SQL untuk menghitung data pada tabel demo.
-    ```sql
-    CREATE PROCEDURE HitungDemo()
-    SELECT COUNT(*) AS total FROM demo;
-    ```
-  5. Gunakan perintah SQL di bawah ini untuk memanggil procedure **HitungDemo()** yang telah dibuat
-    ```sql
-    CALL HitungDemo();
-    ```
-
-  #### Menambahkan Data Dengan Parameter
-  Pada contoh ini, procedure **InsertDemo(Name, Hint)** dibuat untuk menambah data pada tabel demo dengan parameter **Name** dan **Hint**
-  1. Buka [SQLiteonline.com](https://sqliteonline.com/)
-  2. Klik **MariaDB**
-  3. Klik **Click to connect**
-  4. Buat perintah SQL seperti di bawah ini untuk membuat procedure **InsertDemo(Name, Hint)** yang memiliki dua parameter isian yaitu **Name** dan **Hint**. **InsertDemo(Name, Hint)** berisi perintah INSERT untuk menambahkan data Name dan Hint pada tabel demo.
-    ```sql
-    CREATE PROCEDURE InsertDemo(IN Name VARCHAR(50), IN Hint VARCHAR(50))
-    INSERT INTO demo VALUES(NULL, Name, Hint);
-    ```
-  5. Gunakan perintah SQL di bawah ini untuk memanggil procedure **InsertDemo(Name, Hint)** yang telah dibuat, untuk menambahkan data baru
-    ```sql
-    CALL InsertDemo('Ujang', 'Menjual bubur tiap hari Senin, Rabu, Sabtu');
-    ```
+#### Menambahkan Data Dengan Parameter
+Pada contoh ini, procedure **InsertDemo(Name, Hint)** dibuat untuk menambah data pada tabel demo dengan parameter **Name** dan **Hint**
+1. Buka [SQLiteonline.com](https://sqliteonline.com/)
+2. Klik **MariaDB**
+3. Klik **Click to connect**
+4. Buat perintah SQL seperti di bawah ini untuk membuat procedure **InsertDemo(Name, Hint)** yang memiliki dua parameter isian yaitu **Name** dan **Hint**. **InsertDemo(Name, Hint)** berisi perintah INSERT untuk menambahkan data Name dan Hint pada tabel demo.
+  ```sql
+  CREATE PROCEDURE InsertDemo(IN Name VARCHAR(50), IN Hint VARCHAR(50))
+  INSERT INTO demo VALUES(NULL, Name, Hint);
+  ```
+5. Gunakan perintah SQL di bawah ini untuk memanggil procedure **InsertDemo(Name, Hint)** yang telah dibuat, untuk menambahkan data baru
+  ```sql
+  CALL InsertDemo('Ujang', 'Menjual bubur tiap hari Senin, Rabu, Sabtu');
+  ```
 </details>
 
 ### Contoh Penulisan Procedure pada PostgreSQL
@@ -99,20 +98,6 @@ Pada contoh ini, procedure **Insert(Name, Hint)** dibuat untuk menambah data pad
   ```sql
   SELECT * FROM InsertDemo(7, 'Ujang', 'Menjual bubur tiap hari Senin, Rabu, Sabtu');
   ```
-</details>
-
-
-<details><summary>CLICK ME</summary>
-  
-<p>
-
-#### yes, even hidden code blocks!
-
-```python
-print("hello world!")
-```
-
-</p>
 </details>
 
 ## Trigger
