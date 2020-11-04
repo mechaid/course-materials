@@ -8,7 +8,7 @@ title: Materi Kuliah
 - Bahasa Inggris Teknik
 - Dasar Pemrograman
 - Tata Tulis Karya Ilmiah
-- Psikologi Media Digital
+- [Psikologi Media Digital](/course-materials/psikologi-media-digital/2020-2021/)
 - Pembelajaran Multimedia
 - Kalkulus
 
