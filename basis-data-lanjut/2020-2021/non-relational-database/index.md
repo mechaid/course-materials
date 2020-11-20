@@ -9,4 +9,4 @@ tags: [nosql, non-relasional]
 
 ## Definisi
 
-> Basis data non relasional adalah basis data yang strukturnya tidak mengikuti struktur data tabular kolom, dan baris.
+> Basis data non relasional adalah basis data yang strukturnya tidak mengikuti struktur data tabular kolom, dan baris basis data relasional.
