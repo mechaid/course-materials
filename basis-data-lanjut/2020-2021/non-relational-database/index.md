@@ -81,4 +81,10 @@ Basis data non relasional dapat menjadi alternatif pilihan ketika ada permasalah
 - Tidak optimal untuk kebutuhan Join
 - Mekanisme query yang lebih kompleks
 
+## Contoh Penggunaan Basis Data Non Relasional
 
+- Penyimpanan komentar dan chat dari media sosial
+- Cache data pengguna hasil join dari berbagai tabel pada basis data relasional
+- Penyimpanan data IOT dari sensor ketinggian air sungai yang dikirim setiap menit
+- Pengelolaan konten website
+- Penyimpanan data interaksi pengguna dari aplikasi smartphone
