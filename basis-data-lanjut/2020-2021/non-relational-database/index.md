@@ -7,6 +7,18 @@ course-parent-url: ../../2020-2021
 tags: [nosql, non-relasional]
 ---
 
+## Intermezo
+
+Misalkan kita butuh mengumpulkan data warga se Jawa Barat, namun sumber datanya berbeda-beda, dan informasi dari tiap sumber data berbeda-beda. 
+
+Jika kita menggunakan basis data relasional, maka setiap ada penambahan informasi baru, ditambahkan kolom baru di basis data relasionalnya. 
+
+Jika data sudah mencapai puluhan juta, menambah kolom baru bisa jadi memakan waktu, selain itu akan ada banyak kolom kosong.
+
+Basis data non relasional dapat menjadi alternatif pilihan ketika ada permasalahan seperti itu.
+
+![Contoh data non relasional](https://raw.githubusercontent.com/mechaid/course-materials/master/basis-data-lanjut/2020-2021/non-relational-database/contoh-data-non-relasional.png)
+
 ## Definisi
 
 > Basis data non relasional adalah basis data yang strukturnya tidak mengikuti struktur data tabular kolom, dan baris basis data relasional.
