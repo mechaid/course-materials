@@ -65,3 +65,19 @@ Basis data non relasional dapat menjadi alternatif pilihan ketika ada permasalah
 - Mendapatkan keuntungan dari basis data relasional sekaligus non relasional
 - Umum digunakan untuk : Data yang memerlukan beberapa struktur tipe basis data sekaligus. Contohnya PostgreSQL digunakan sebagai basis data relasional yang kolomnya dapat digunakan **document stores** untuk menyimpan data berbasis JSON.
 - Contoh basis data : Oracle, SQL Server, MySQL, PostgreSQL, MongoDB
+
+## Keuntungan dan Kelebihan
+
+### Keuntungan
+
+- Struktur data yang fleksibel. Dapat menampung struktur yang berbeda-beda tanpa harus mengubah-ubah struktur kolom
+- Kemampuan bertumbuh secara horizontal lebih baik dibandingkan basis data relasional. Misal, ketika ukuran data semakin besar pada satu server, ditambahkan dua server lainnya untuk menjaga performa basis data
+
+### Kerugian
+
+- Support komunitas lebih sedikit, karena kebanyakan basis data non relasaional lebih muda usianya dibandingkan basis data relasional
+- Tidak optimal untuk kebutuhan Transaction
+- Tidak optimal untuk kebutuhan Join
+- Mekanisme query yang lebih kompleks
+
+
