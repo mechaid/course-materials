@@ -26,3 +26,16 @@ Basis data non relasional dapat menjadi alternatif pilihan ketika ada permasalah
 > Struktur penyimpanan data pada basis data non relasional dioptimasi berdasarkan kebutuhan spesifik dari data yang akan disimpan.
 
 > Ada empat tipe basis data non relasional yang umum digunakan yaitu **Key-Value stores**, **Column stores**, **Document stores**, dan **Graph stores**
+
+> Berbeda dengan basis data relasional yang struktur datanya secara umum sama, dan menggunakan bahasa umum yang sama (SQL), pada basis data non relasional, cara untuk mengakses dan mengubah informasi pada basis data berbeda-beda tergantung kepada program basis datanya.
+
+## Tipe Basis Data Non Relasional
+
+### Key-Value Stores
+
+
+### Column Stores
+
+### Document Stores
+
+### Graph Stores
