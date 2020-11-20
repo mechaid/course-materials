@@ -11,4 +11,6 @@ tags: [nosql, non-relasional]
 
 > Basis data non relasional adalah basis data yang strukturnya tidak mengikuti struktur data tabular kolom, dan baris basis data relasional.
 
-> Struktur penyimpanan data pada basis data non relasional dioptimasi berdasarkan kebutuhan spesifik dari data yang akan disimpan
+> Struktur penyimpanan data pada basis data non relasional dioptimasi berdasarkan kebutuhan spesifik dari data yang akan disimpan.
+
+> Ada empat tipe basis data non relasional yang umum digunakan yaitu **Key-Value stores**, **Column stores**, **Document stores**, dan **Graph stores**
