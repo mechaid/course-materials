@@ -25,7 +25,7 @@ Basis data non relasional dapat menjadi alternatif pilihan ketika ada permasalah
 
 > Struktur penyimpanan data pada basis data non relasional dioptimasi berdasarkan kebutuhan spesifik dari data yang akan disimpan.
 
-> Ada empat tipe basis data non relasional yang umum digunakan yaitu **Key-Value stores**, **Column stores**, **Document stores**, dan **Graph stores**
+> Ada empat tipe basis data non relasional yang umum digunakan yaitu **Key-Value stores**, **Column stores**, **Document stores**, **Graph stores**, dan **Multi-model**
 
 > Berbeda dengan basis data relasional yang struktur datanya secara umum sama, dan menggunakan bahasa umum yang sama (SQL), pada basis data non relasional, cara untuk mengakses dan mengubah informasi pada basis data berbeda-beda tergantung kepada program basis datanya.
 
@@ -35,9 +35,33 @@ Basis data non relasional dapat menjadi alternatif pilihan ketika ada permasalah
 
 ### Key-Value Stores
 
+- Struktur paling sederhana
+- Data disimpan menggunakan struktur **key** dan **value**. Contoh key : warga001, value : {nama: Burhan, umur: 12}
+- Memudahkan scaling (menambah kapasitas sumber daya server basis data) secara horizontal
+- Umum digunakan untuk : Gaming, caching dan IOT
+- Contoh basis data : Redis, Memcached, etcd
 
 ### Column Stores
 
+- Data disimpan dengan struktur mirip basis data relasional (berbasis baris dan kolom), perbedaannya nama kolom antar baris dapat berbeda-beda
+- Contoh basis data : Apache Cassandra, Hbase, Datastax Enterprise, Apache Accumulo
+
 ### Document Stores
 
+- Mirip key-value stores, lebih kompleks
+- Data disimpan dengan struktur JSON
+- Umum digunakan untuk : Big data, aplikasi real-time
+- Contoh basis data : MongoDB, Couchbase, CouchDB, Google Firebase
+
 ### Graph Stores
+
+- Untuk menyimpan relasi antar satuan data yang memiliki keterkaitan tinggi. Contohnya hubungan antara user media sosial.
+- Umum digunakan untuk : Aplikasi social networking, analisis media sosial, aplikasi rekomendasi pilihan, dan deteksi, sistem referensi
+- Contoh basis data : Neo4j, JanusGraph
+
+### Multi-Model
+
+- Gabungan lebih dari satu tipe basis data
+- Mendapatkan keuntungan dari basis data relasional sekaligus non relasional
+- Umum digunakan untuk : Data yang memerlukan beberapa struktur tipe basis data sekaligus. Contohnya PostgreSQL digunakan sebagai basis data relasional yang kolomnya dapat digunakan **document stores** untuk menyimpan data berbasis JSON.
+- Contoh basis data : Oracle, SQL Server, MySQL, PostgreSQL, MongoDB
