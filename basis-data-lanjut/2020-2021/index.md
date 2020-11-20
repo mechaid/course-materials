@@ -16,7 +16,7 @@ tags: database big-data nosql
 5. [Indexing](indexing)
 6. [Transaction](transaction)
 7. [Keamanan basis data](security)
-8. Basis data non relasional
+8. [Basis data non relasional](non-relational-database)
 9. Big Data dan basis data terdistribusi
 10. Optimasi dan benchmark basis data
 11. Konektivitas basis data
