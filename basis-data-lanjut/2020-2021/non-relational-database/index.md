@@ -71,7 +71,8 @@ Basis data non relasional dapat menjadi alternatif pilihan ketika ada permasalah
 ### Keuntungan
 
 - Struktur data yang fleksibel. Dapat menampung struktur yang berbeda-beda tanpa harus mengubah-ubah struktur kolom
-- Kemampuan bertumbuh secara horizontal lebih baik dibandingkan basis data relasional. Misal, ketika ukuran data semakin besar pada satu server, ditambahkan dua server lainnya untuk menjaga performa basis data
+- Kemampuan bertumbuh secara horizontal, ketika data semakin besar server baru ditambahkan untuk menyesuaikan performa
+- Kecepatan Insert data yang lebih tinggi dari basis data relasional
 
 ### Kerugian
 
