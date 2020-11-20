@@ -29,6 +29,8 @@ Basis data non relasional dapat menjadi alternatif pilihan ketika ada permasalah
 
 > Berbeda dengan basis data relasional yang struktur datanya secara umum sama, dan menggunakan bahasa umum yang sama (SQL), pada basis data non relasional, cara untuk mengakses dan mengubah informasi pada basis data berbeda-beda tergantung kepada program basis datanya.
 
+![Ilustrasi SQL dan NoSQL](https://raw.githubusercontent.com/mechaid/course-materials/master/basis-data-lanjut/2020-2021/non-relational-database/ilustrasi-sql-nosql.png)
+
 ## Tipe Basis Data Non Relasional
 
 ### Key-Value Stores
