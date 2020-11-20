@@ -7,4 +7,6 @@ course-parent-url: ../../2020-2021
 tags: [nosql, non-relasional]
 ---
 
-## Konsep
+## Definisi
+
+> Basis data non relasional adalah basis data yang strukturnya tidak mengikuti struktur data tabular kolom, dan baris.
