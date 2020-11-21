@@ -16,6 +16,7 @@ title: Materi Kuliah
 
 - [Basis Data Lanjut](/course-materials/basis-data-lanjut/2020-2021/)
 - [Kecerdasan Buatan](/course-materials/kecerdasan-buatan/2020-2021/)
+- [Pengolahan Citra](/course-materials/pengolahan-citra/2020-2021/)
 - Data Mining
 - Dasar Pembelajaran Mesin
 - Pembelajaran Mesin Lanjut
