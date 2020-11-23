@@ -2,7 +2,7 @@
 layout: course-page
 title: Function di Javascript
 description: Function di Javascript dapat berlaku sebagai variable sekaligus object
-course-parent: Praktikum Web
+course-parent: Web Frontend
 course-parent-url: ../../2020-2021
 tags: [javascript, function]
 ---
