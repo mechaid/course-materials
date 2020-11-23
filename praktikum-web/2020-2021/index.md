@@ -1,8 +1,8 @@
 ---
 layout: course-index
-title: Silabus Praktikum Web
-description: Silabus, buku rujukan dan open learning terkait mata kuliah Praktikum Web
-course-parent: Praktikum Web
+title: Silabus Web Frontend
+description: Silabus, buku rujukan dan open learning terkait mata kuliah Web Frontend
+course-parent: Web Frontend
 course-parent-url: ../2020-2021
 tags: web-design html css javascript
 ---
