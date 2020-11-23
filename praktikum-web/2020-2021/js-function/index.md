@@ -9,12 +9,11 @@ tags: [javascript, function]
 
 ## Pendefinisian Fungsi
 
-### Pendefinisian Umum
-
+### Deklarasi Function
 ```javascript
-function menghitungLuas(panjang, lebar) {
+function getLuas(panjang, lebar) {
   var luas = panjang * lebar;
-  console.log(luas);
+  return luas;
 }
 ```
 
