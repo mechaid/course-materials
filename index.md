@@ -23,7 +23,7 @@ title: Materi Kuliah
 - Computer Vision
 - Komputasi Evolusioner
 - Pemrosesan Bahasa Alami
-- Pemrograman Web
+- [Web Frontend](/course-materials/praktikum-web/2020-2021/)
 - Jaringan Komputer
 
 ## Teknik Elektro
