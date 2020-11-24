@@ -7,6 +7,10 @@ course-parent-url: ../../2020-2021
 tags: [javascript, function]
 ---
 
+## Konsep
+- Kumpulan kode untuk mengerjakan perintah tertentu
+- Memudahkan eksekusi perintah berkali-kali dengan input yang berbeda
+
 ## Pendefinisian Fungsi
 
 ### Deklarasi Function
@@ -56,6 +60,15 @@ printGetLuas(getLuas);
 ### Arrow Function
 ```javascript
 const getLuas = (panjang, lebar) => panjang * lebar;
+```
+
+## Argumen Fungsi
+```javascript
+printPeserta("Alan", "Dadi", "Sita", "Deni");
+
+function printPeserta() {
+  console.log(arguments);
+}
 ```
 
 ## Artikel Terkait
