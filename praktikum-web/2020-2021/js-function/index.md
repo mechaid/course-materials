@@ -53,6 +53,10 @@ function printGetLuas(f) {
 printGetLuas(getLuas);
 ```
 
+### Arrow Function
+```javascript
+const getLuas = (panjang, lebar) => panjang * lebar;
+```
 
 ## Artikel Terkait
 - [Javascript Function Definitions](https://www.w3schools.com/js/js_functions.asp)
