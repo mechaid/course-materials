@@ -15,6 +15,15 @@ function getLuas(panjang, lebar) {
   var luas = panjang * lebar;
   return luas;
 }
+
+console.log(getLuas(4, 5));
+```
+
+### Deklarasi Function Sebagai [Expression](https://masteringjs.io/tutorials/fundamentals/expressions)
+```javascript
+var getLuas = function (panjang, lebar) {return panjang * lebar};
+
+console.log(getLuas(4, 5));
 ```
 
 
