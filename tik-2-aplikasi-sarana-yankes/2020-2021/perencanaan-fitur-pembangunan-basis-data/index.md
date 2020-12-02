@@ -28,7 +28,6 @@ Pada tahap ini, fitur-fitur yang dibutuhkan aplikasi ditulis dan dirangking dari
 
 Berikut contoh penentuan dan perangkingan fitur untuk contoh Aplikasi Pendataan Pasien Untuk Rawat Jalan :
 
-
 | Sebagai | Saya Ingin | Sehingga | Story Point |
 |---|---|---|---|
 | User | Menggunakan sistem login ke dalam sistem | Hanya yang berwenang saja yang dapat menggunakan sistem | 1 |
@@ -36,19 +35,6 @@ Berikut contoh penentuan dan perangkingan fitur untuk contoh Aplikasi Pendataan 
 | Admin | Menginput kunjungan baru dari pasien | Data dapat ditambahkan ke rekam medis pasien | 2 |
 | Dokter | Melihat rekam medis pasien | Dapat memberi tambahan informasi untuk diagnosa | 3 |
 | Manajemen | Melihat laporan bulanan dari kunjungan berobat seluruh pasien | Dapat memberi tambahan informasi untuk pengambilan keputusan | 4 |
-
-
-| **var** | **let** | **const** |
-|-----|-----|-----|
-| Declares a variable, optionally initializing it to a value. | Declares a block-scoped, local variable, optionally initializing it to a value. | Declares a block-scoped, read-only named constant. |
-| Variable declared by **`var`** must start with a letter, underscore ( _ ) or dollar sign ($) and can contain alphabetic, numeric, or underscore characters. | Variable declared by **`let`** must start with a letter, underscore ( _ ) or dollar sign ($) and can contain alphabetic, numeric, or underscore characters. | Variable declared by **`const`** must start with a letter, underscore ( _ ) or dollar sign ($) and can contain alphabetic, numeric, or underscore characters. |
-
-
-| type|name |description |
-|----|---|---|
-| *address* | _user | address of certificate owner |
-| *bytes32* | _hash | sha256 hash of the certificate text |
-
 
 ## Struktur Data
 
