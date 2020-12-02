@@ -65,24 +65,31 @@ Berikut contoh penentuan dan perangkingan fitur untuk contoh Aplikasi Pendataan 
 | Atribut | Kolom di Tabel Database | Tipe Data (MySQL) |
 |---|---|---|
 | ID user | id_user | INT |
+| NIP | nip | VARCHAR(20) |
 | Nama | nama | VARCHAR(80) |
 | Nomor praktek | nomor_praktek | VARCHAR(80) |
 | Alamat | alamat | alamat |
 | Nomor telepon | nomor_telepon | VARCHAR(20) |
 
 ### MASTER DATA - TINDAKAN
-- Kode tindakan
-- Nama tindakan
-- Tarif
+
+| Atribut | Kolom di Tabel Database | Tipe Data (MySQL) |
+|---|---|---|
+| Kode | kode | VARCHAR(20) |
+| Nama | nama | VARCHAR(200) |
+| Tarif | tarif | INT |
 
 ### DATA TRANSAKSI - PENDAFTARAN
-- ID
-- No registrasi
-- No rekam medis
-- Tanggal
-- Diagnosa
-- NIP dokter
-- Resep
-- Kode tindakan
-- Total pembayaran
-- Lunas
+
+| Atribut | Kolom di Tabel Database | Tipe Data (MySQL) |
+|---|---|---|
+| ID | id | INT |
+| Nomor rekam medis | rkm | VARCHAR(20) |
+| Tanggal | tanggal | DATE |
+| Keluhan | keluhan | TEXT |
+| Diagnosa | diagnosa | TEXT |
+| NIP dokter | nip_dokter | VARCHAR(20) |
+| Resep | resep | TEXT |
+| Kode tindakan | kode_tindakan | VARCHAR(20) |
+| Total pembayaran | total_pembayaran | INT |
+| Pembayaran telah lunas ? (0 = belum, 1 = sudah) | is_lunas | TINYINT |
