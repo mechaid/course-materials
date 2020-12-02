@@ -73,6 +73,7 @@ Berikut contoh penentuan dan perangkingan fitur untuk contoh Aplikasi Pendataan 
 ### MASTER DATA - TINDAKAN
 - Kode tindakan
 - Nama tindakan
+- Tarif
 
 ### DATA TRANSAKSI - PENDAFTARAN
 - ID
