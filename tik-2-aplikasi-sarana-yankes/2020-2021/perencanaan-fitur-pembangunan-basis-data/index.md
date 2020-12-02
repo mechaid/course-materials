@@ -51,7 +51,6 @@ Berikut contoh penentuan dan perangkingan fitur untuk contoh Aplikasi Pendataan 
 
 | Atribut | Kolom di Tabel Database | Tipe Data (MySQL) |
 |---|---|---|
-| ID | id | INT |
 | Nomor rekam medis | rkm | VARCHAR(20) |
 | Nomor KTP | nik | VARCHAR(20) |
 | Nama | nama | VARCHAR(80) |
@@ -61,22 +60,15 @@ Berikut contoh penentuan dan perangkingan fitur untuk contoh Aplikasi Pendataan 
 | Alamat | alamat | VARCHAR(240) |
 | Nomor telepon | nomor_telepon | VARCHAR(20) |
 
-- ID
-- No rekam medis
-- No KTP
-- Nama
-- Tempat lahir
-- Tanggal lahir
-- Jenis kelamin
-- Alamat
-- Nomor telepon
-
 ### MASTER DATA - DOKTER
-- NIP
-- Nama
-- Nomor praktek
-- Alamat
-- Telepon
+
+| Atribut | Kolom di Tabel Database | Tipe Data (MySQL) |
+|---|---|---|
+| ID user | id_user | INT |
+| Nama | nama | VARCHAR(80) |
+| Nomor praktek | nomor_praktek | VARCHAR(80) |
+| Alamat | alamat | alamat |
+| Nomor telepon | nomor_telepon | VARCHAR(20) |
 
 ### MASTER DATA - TINDAKAN
 - Kode tindakan
