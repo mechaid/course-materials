@@ -45,13 +45,22 @@ Berikut contoh penentuan dan perangkingan fitur untuk contoh Aplikasi Pendataan 
 | ID | id | INT |
 | Username | username | VARCHAR(80) |
 | Password | password | VARCHAR(80) |
-
-- ID
-- Username
-- Password
-- Tipe pengguna [1 = Admin, 2 = dokter]
+| Tipe user (1 = admin, 2 = dokter, 3 = manajemen) | tipe_user | TINYINT |
 
 ### MASTER DATA - PASIEN
+
+| Atribut | Kolom di Tabel Database | Tipe Data (MySQL) |
+|---|---|---|
+| ID | id | INT |
+| Nomor rekam medis | rkm | VARCHAR(20) |
+| Nomor KTP | nik | VARCHAR(20) |
+| Nama | nama | VARCHAR(80) |
+| Tempat lahir | tempat_lahir | VARCHAR(40) |
+| Tanggal lahir | tanggal_lahir | DATE |
+| Jenis kelamin (1 = pria, 2 = wanita) | jenis_kelamin | TINYINT |
+| Alamat | alamat | VARCHAR(240) |
+| Nomor telepon | nomor_telepon | VARCHAR(20) |
+
 - ID
 - No rekam medis
 - No KTP
