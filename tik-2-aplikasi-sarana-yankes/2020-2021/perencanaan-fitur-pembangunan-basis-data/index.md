@@ -37,8 +37,12 @@ Berikut contoh penentuan dan perangkingan fitur untuk contoh Aplikasi Pendataan 
 | Manajemen | Melihat laporan bulanan dari kunjungan berobat seluruh pasien | Dapat memberi tambahan informasi untuk pengambilan keputusan | ? |
 
 ## Struktur Data
+Perancangan struktur data adalah tahapan membuat tabel database untuk objek-objek yang ada pada fitur-fitur aplikasi. Tabel di database terdiri atas kolom-kolom yang memiliki nama dan tipe data tertentu. Penamaan tabel dibagi menjadi dua yaitu **tabel data master** dan **tabel data transaksi**. Tabel data master adalah tabel yang sifatnya dirujuk oleh tabel-tabel lainnya, dan jumlah datanya belum tentu bertambah seiring bertambahnya transaksi. Contohnya tabel terkait penduduk, wilayah, katalog produk, katalog tindakan rawat, dsb. Tabel data transaksi adalah tabel yang jumlah datanya selalu bertambah seiring bertambahnya transaksi. Contohnya tabel terkait transaksi penjualan, tabel terkait transaksi rawat jalan, dsb.
+
+Berikut contoh perancangan struktur data dan struktur databasae untuk contoh Aplikasi Pendataan Pasien Untuk Rawat Jalan :
 
 ### MASTER DATA - USER
+Nama tabel di database : **mst_user**
 
 | Atribut | Kolom di Tabel Database | Tipe Data (MySQL) |
 |---|---|---|
@@ -51,6 +55,7 @@ Berikut contoh penentuan dan perangkingan fitur untuk contoh Aplikasi Pendataan 
 | Tipe user (1 = admin, 2 = dokter, 3 = manajemen) | tipe_user | TINYINT |
 
 ### MASTER DATA - PASIEN
+Nama tabel di database : **mst_pasien**
 
 | Atribut | Kolom di Tabel Database | Tipe Data (MySQL) |
 |---|---|---|
@@ -65,6 +70,7 @@ Berikut contoh penentuan dan perangkingan fitur untuk contoh Aplikasi Pendataan 
 | Waktu input | waktu_input | TIMESTAMP |
 
 ### MASTER DATA - DOKTER
+Nama tabel di database : **mst_dokter**
 
 | Atribut | Kolom di Tabel Database | Tipe Data (MySQL) |
 |---|---|---|
@@ -72,7 +78,8 @@ Berikut contoh penentuan dan perangkingan fitur untuk contoh Aplikasi Pendataan 
 | NIP | nip | VARCHAR(20) |
 | Nomor praktek | nomor_praktek | VARCHAR(80) |
 
-### MASTER DATA - TINDAKAN PENANGANAN
+### MASTER DATA - TINDAKAN
+Nama tabel di database : **mst_tindakan**
 
 | Atribut | Kolom di Tabel Database | Tipe Data (MySQL) |
 |---|---|---|
@@ -80,7 +87,8 @@ Berikut contoh penentuan dan perangkingan fitur untuk contoh Aplikasi Pendataan 
 | Nama | nama | VARCHAR(200) |
 | Tarif | tarif | INT |
 
-### DATA TRANSAKSI - PENDAFTARAN
+### DATA TRANSAKSI - RAWAT JALAN
+Nama tabel di database : **tsk_rawat_jalan**
 
 | Atribut | Kolom di Tabel Database | Tipe Data (MySQL) |
 |---|---|---|
@@ -94,4 +102,5 @@ Berikut contoh penentuan dan perangkingan fitur untuk contoh Aplikasi Pendataan 
 | Kode tindakan | kode_tindakan | VARCHAR(20) |
 | Total pembayaran | total_pembayaran | INT |
 | Pembayaran telah lunas ? (0 = belum, 1 = sudah) | is_lunas | TINYINT |
+| Status | status | TINYINT |
 | Waktu input | waktu_input | TIMESTAMP |
