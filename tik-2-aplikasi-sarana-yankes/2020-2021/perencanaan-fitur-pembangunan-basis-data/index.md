@@ -33,8 +33,8 @@ Berikut contoh penentuan dan perangkingan fitur untuk contoh Aplikasi Pendataan 
 | User | Menggunakan sistem login ke dalam sistem | Hanya yang berwenang saja yang dapat menggunakan sistem | 1 |
 | Admin | Mendaftarkan pasien baru | Data tersebut dapat digunakan berulang kali untuk kunjungan di kemudian hari | 2 |
 | Admin | Menginput kunjungan baru dari pasien | Data dapat ditambahkan ke rekam medis pasien | 3 |
-| Dokter | Melihat rekam medis pasien | Dapat memberi tambahan informasi untuk diagnosa | - |
-| Manajemen | Melihat laporan bulanan dari kunjungan berobat seluruh pasien | Dapat memberi tambahan informasi untuk pengambilan keputusan | - |
+| Dokter | Melihat rekam medis pasien | Dapat memberi tambahan informasi untuk diagnosa | ? |
+| Manajemen | Melihat laporan bulanan dari kunjungan berobat seluruh pasien | Dapat memberi tambahan informasi untuk pengambilan keputusan | ? |
 
 ## Struktur Data
 
