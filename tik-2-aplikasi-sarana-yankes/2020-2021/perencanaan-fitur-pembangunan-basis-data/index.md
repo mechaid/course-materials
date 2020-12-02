@@ -7,8 +7,6 @@ Pada tahap ini, para pemegang keputusan merumuskan deskripsi sistem informasi ya
 
 Berikut contoh penentuan kebutuhan pada sebuah rumah sakit :
 
-- **Judul**
-  - Aplikasi Pendataan Pasien Untuk Rawat Jalan
 - **Tujuan**
   - Memudahkan dan mempercepat proses administrasi rawat jalan mulai dari registrasi pasien, pendaftaran, hingga pembuatan laporan bulanan.
   - Laporan dapat dibuka dari mana saja
@@ -22,6 +20,8 @@ Berikut contoh penentuan kebutuhan pada sebuah rumah sakit :
   - Rekapitulasi pendaftaran
 - **Mekanisme pembangunan**
   - Berkelanjutan
+- **Nama sistem**
+  - Aplikasi Pendataan Pasien Untuk Rawat Jalan Berbasis Web
 
 ## Penentuan dan Perangkingan Fitur _(User Story)_
 Pada tahap ini, fitur-fitur yang dibutuhkan aplikasi ditulis dan dirangking dari yang paling urgen dan penting untuk didahulukan dibuat. Cara penentuan dan perangkingan fitur yang umum dilakukan pada pembuatan aplikasi modern adalah berbasis user story (cerita pengguna) yang menitikberatkan pengadaan fitur berdasarkan kebutuhan dari para penggunanya. Pada penentuan fitur berbasis user story, alasan mengapa fitur itu diperlukan, wajib ditulis. 
