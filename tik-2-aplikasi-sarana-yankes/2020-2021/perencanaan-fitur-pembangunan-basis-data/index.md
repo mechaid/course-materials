@@ -36,6 +36,12 @@ Berikut contoh penentuan dan perangkingan fitur untuk contoh Aplikasi Pendataan 
 | Dokter | Melihat rekam medis pasien | Dapat memberi tambahan informasi untuk diagnosa | 3 |
 | Manajemen | Melihat laporan bulanan dari kunjungan berobat seluruh pasien | Dapat memberi tambahan informasi untuk pengambilan keputusan | 4 |
 
+| **var** | **let** | **const** |
+|-----|-----|-----|
+| Declares a variable, optionally initializing it to a value. | Declares a block-scoped, local variable, optionally initializing it to a value. | Declares a block-scoped, read-only named constant. |
+| Variable declared by **`var`** must start with a letter, underscore ( _ ) or dollar sign ($) and can contain alphabetic, numeric, or underscore characters. | Variable declared by **`let`** must start with a letter, underscore ( _ ) or dollar sign ($) and can contain alphabetic, numeric, or underscore characters. | Variable declared by **`const`** must start with a letter, underscore ( _ ) or dollar sign ($) and can contain alphabetic, numeric, or underscore characters. |
+
+
 ## Struktur Data
 
 ### MASTER DATA - USER
