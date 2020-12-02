@@ -45,6 +45,9 @@ Berikut contoh penentuan dan perangkingan fitur untuk contoh Aplikasi Pendataan 
 | ID | id | INT |
 | Username | username | VARCHAR(80) |
 | Password | password | VARCHAR(80) |
+| Nama | nama | VARCHAR(80) |
+| Alamat | alamat | VARCHAR(240) |
+| Nomor telepon | nomor_telepon | VARCHAR(20) |
 | Tipe user (1 = admin, 2 = dokter, 3 = manajemen) | tipe_user | TINYINT |
 
 ### MASTER DATA - PASIEN
@@ -67,10 +70,7 @@ Berikut contoh penentuan dan perangkingan fitur untuk contoh Aplikasi Pendataan 
 |---|---|---|
 | ID user | id_user | INT |
 | NIP | nip | VARCHAR(20) |
-| Nama | nama | VARCHAR(80) |
 | Nomor praktek | nomor_praktek | VARCHAR(80) |
-| Alamat | alamat | alamat |
-| Nomor telepon | nomor_telepon | VARCHAR(20) |
 
 ### MASTER DATA - TINDAKAN PENANGANAN
 
