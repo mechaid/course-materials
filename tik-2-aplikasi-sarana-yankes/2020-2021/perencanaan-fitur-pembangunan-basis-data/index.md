@@ -88,7 +88,7 @@ Nama tabel di database : **mst_tindakan**
 | Tarif | tarif | INT |
 
 ### DATA TRANSAKSI - RAWAT JALAN
-Nama tabel di database : **tsk_rawat_jalan**
+Nama tabel di database : **trs_rawat_jalan**
 
 | Atribut | Kolom di Tabel Database | Tipe Data (MySQL) |
 |---|---|---|
