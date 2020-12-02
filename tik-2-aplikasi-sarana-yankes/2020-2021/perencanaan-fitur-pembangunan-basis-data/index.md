@@ -4,13 +4,13 @@ title: Penentuan Kebutuhan, Perankingan Fitur, Pembangunan Basis Data
 
 ## Struktur Data
 
-MASTER DATA - USER
+### MASTER DATA - USER
 - ID
 - Username
 - Password
 - Tipe pengguna [1 = Admin, 2 = dokter]
 
-MASTER DATA - PASIEN
+### MASTER DATA - PASIEN
 - ID
 - No rekam medis
 - No KTP
@@ -21,18 +21,18 @@ MASTER DATA - PASIEN
 - Alamat
 - Nomor telepon
 
-MASTER DATA - DOKTER
+### MASTER DATA - DOKTER
 - NIP
 - Nama
 - Nomor praktek
 - Alamat
 - Telepon
 
-MASTER DATA - TINDAKAN
+### MASTER DATA - TINDAKAN
 - Kode tindakan
 - Nama tindakan
 
-DATA TRANSAKSI - PENDAFTARAN
+### DATA TRANSAKSI - PENDAFTARAN
 - ID
 - No registrasi
 - No rekam medis
