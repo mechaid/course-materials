@@ -1,6 +1,31 @@
 ---
-title: Penentuan Kebutuhan, Perankingan Fitur, Pembangunan Basis Data
+title: Penentuan Kebutuhan, Perangkingan Fitur, Pembangunan Basis Data
 ---
+
+## Penentuan Kebutuhan
+Pada tahap ini, para pemegang keputusan merumuskan deskripsi sistem informasi yang dibutuhkan organisasi. Apa tujuan utama dari sistem, siapa penggunanya, apa outputnya, bagaimana mekanisme pembangunannya apakah hanya sekali bangun ataukah berkelanjutan.
+
+Berikut contoh penentuan kebutuhan pada sebuah rumah sakit :
+
+- **Judul**
+  - Aplikasi Pendataan Pasien Untuk Rawat Jalan
+- **Tujuan**
+  - Memudahkan dan mempercepat proses administrasi rawat jalan mulai dari registrasi pasien, pendaftaran, hingga pembuatan laporan bulanan.
+  - Laporan dapat dibuka dari mana saja
+- **Pengguna**
+  - Admin
+  - Dokter
+  - Manajemen
+- **Output**
+  - Data pasien
+  - Data pendaftaran
+  - Rekapitulasi pendaftaran
+- **Mekanisme pembangunan**
+  - Berkelanjutan
+
+## Penentuan dan Perangkingan Fitur
+
+- Aplikasi Rawat Jalan
 
 ## Struktur Data
 
