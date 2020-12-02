@@ -11,5 +11,6 @@ tags: medical-records health-app
 
 1. [Metode Pengadaan Aplikasi Perangkat Lunak Kesehatan]()
 2. [Hosting Aplikasi Perangkat Lunak Kesehatan]()
+3. [Penentuan Kebutuhan, Perankingan Fitur, Pembangunan Basis Data]()
 
 ## Buku Referensi
