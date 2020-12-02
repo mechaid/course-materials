@@ -28,13 +28,13 @@ Pada tahap ini, fitur-fitur yang dibutuhkan aplikasi ditulis dan dirangking dari
 
 Berikut contoh penentuan dan perangkingan fitur untuk contoh Aplikasi Pendataan Pasien Untuk Rawat Jalan :
 
-| Sebagai | Saya Ingin | Story Point |
-| --- | --- | --- |
-| User | Menggunakan sistem login ke dalam sistem, agar hanya yang berwenang saja yang dapat menggunakan sistem | 1 |
-| Admin | Mendaftarkan pasien baru, sehingga data tersebut dapat digunakan berulang kali untuk kunjungan di kemudian hari | 2 |
-| Admin | Menginput kunjungan baru dari pasien, sehingga dapat ditambahkan ke rekam medis pasien | 2 |
-| Dokter | Melihat rekam medis pasien, sehingga dapat memberi tambahan informasi untuk diagnosa | 3 |
-| Manajemen | Melihat laporan bulanan dari kunjungan berobat seluruh pasien, sehingga dapat memberi tambahan informasi untuk pengambilan keputusan | 4 |
+| Sebagai | Saya Ingin | Sehingga | Story Point |
+| --- | --- | --- | --- |
+| User | Menggunakan sistem login ke dalam sistem | Hanya yang berwenang saja yang dapat menggunakan sistem | 1 |
+| Admin | Mendaftarkan pasien baru | Data tersebut dapat digunakan berulang kali untuk kunjungan di kemudian hari | 2 |
+| Admin | Menginput kunjungan baru dari pasien | Data dapat ditambahkan ke rekam medis pasien | 2 |
+| Dokter | Melihat rekam medis pasien | Dapat memberi tambahan informasi untuk diagnosa | 3 |
+| Manajemen | Melihat laporan bulanan dari kunjungan berobat seluruh pasien | Dapat memberi tambahan informasi untuk pengambilan keputusan | 4 |
 
 ## Struktur Data
 
