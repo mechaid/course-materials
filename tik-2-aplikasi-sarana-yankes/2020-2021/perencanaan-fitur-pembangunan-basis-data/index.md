@@ -23,9 +23,13 @@ Berikut contoh penentuan kebutuhan pada sebuah rumah sakit :
 - **Mekanisme pembangunan**
   - Berkelanjutan
 
-## Penentuan dan Perangkingan Fitur
+## Penentuan dan Perangkingan Fitur _(Use Case)_
 
-- Aplikasi Rawat Jalan
+- Sebagai user, saya ingin menggunakan sistem login ke dalam sistem, agar hanya yang berwenang saja yang dapat menggunakan sistem
+- Sebagai admin, saya ingin mendaftarkan pasien baru, sehingga data tersebut dapat digunakan berulang kali untuk kunjungan di kemudian hari
+- Sebagai admin, saya ingin menginput kunjungan baru dari pasien, sehingga dapat ditambahkan ke rekam medis pasien
+- Sebagai dokter, saya ingin melihat rekam medis pasien, sehingga dapat memberi tambahan informasi untuk diagnosa
+- Sebagai pihak manajemen, saya ingin melihat laporan bulanan dari kunjungan berobat seluruh pasien, sehingga dapat memberi tambahan informasi untuk pengambilan keputusan
 
 ## Struktur Data
 
