@@ -11,6 +11,6 @@ tags: medical-records health-app
 
 1. [Metode Pengadaan Aplikasi Perangkat Lunak Kesehatan]()
 2. [Hosting Aplikasi Perangkat Lunak Kesehatan]()
-3. [Penentuan Kebutuhan, Perankingan Fitur, Pembangunan Basis Data]()
+3. [Penentuan Kebutuhan, Perankingan Fitur, Pembangunan Basis Data](/course-materials/tik-2-aplikasi-sarana-yankes/2020-2021/perencanaan-fitur-pembangunan-basis-data)
 
 ## Buku Referensi
