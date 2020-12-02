@@ -175,6 +175,16 @@ a:hover {
     text-align: justify;
   }
   
+  .main-content table td, .main-content table th {
+    border: 1px solid #bbb;
+    background-color: #eee;
+    color: #111;
+  }
+  
+  .main-content table th {
+    background-color: #ddd;
+  }
+  
 }
 
 .site-footer {
