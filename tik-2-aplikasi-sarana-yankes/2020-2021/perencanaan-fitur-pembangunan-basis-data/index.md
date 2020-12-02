@@ -39,6 +39,13 @@ Berikut contoh penentuan dan perangkingan fitur untuk contoh Aplikasi Pendataan 
 ## Struktur Data
 
 ### MASTER DATA - USER
+
+| Atribut | Kolom di Tabel Database | Tipe Data (MySQL) |
+|---|---|---|
+| ID | id | INT |
+| Username | username | VARCHAR(80) |
+| Password | password | VARCHAR(80) |
+
 - ID
 - Username
 - Password
