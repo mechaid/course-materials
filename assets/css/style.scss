@@ -56,7 +56,7 @@ a:hover {
   
   .project-name {
     @media screen and (min-width: 42em) and (max-width: 64em) {
-      padding: 3rem;
+      line-height: 3rem;
     }
     @media screen and (min-width: 64em) {
       line-height: 4rem;
