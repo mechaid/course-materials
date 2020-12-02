@@ -23,7 +23,10 @@ Berikut contoh penentuan kebutuhan pada sebuah rumah sakit :
 - **Mekanisme pembangunan**
   - Berkelanjutan
 
-## Penentuan dan Perangkingan Fitur _(Use Case)_
+## Penentuan dan Perangkingan Fitur _(User Story)_
+Pada tahap ini, fitur-fitur yang dibutuhkan aplikasi ditulis dan dirangking dari yang paling urgen dan penting untuk didahulukan dibuat. Cara penentuan dan perangkingan fitur yang umum dilakukan pada pembuatan aplikasi modern adalah berbasis user story (cerita pengguna) yang menitikberatkan pengadaan fitur berdasarkan kebutuhan dari para penggunanya. Pada penentuan fitur berbasis user story, alasan mengapa fitur itu diperlukan, wajib ditulis. 
+
+Berikut contoh penentuan dan perangkingan fitur untuk contoh Aplikasi Pendataan Pasien Untuk Rawat Jalan :
 
 - Sebagai user, saya ingin menggunakan sistem login ke dalam sistem, agar hanya yang berwenang saja yang dapat menggunakan sistem
 - Sebagai admin, saya ingin mendaftarkan pasien baru, sehingga data tersebut dapat digunakan berulang kali untuk kunjungan di kemudian hari
