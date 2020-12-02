@@ -59,6 +59,7 @@ Berikut contoh penentuan dan perangkingan fitur untuk contoh Aplikasi Pendataan 
 | Jenis kelamin (1 = pria, 2 = wanita) | jenis_kelamin | TINYINT |
 | Alamat | alamat | VARCHAR(240) |
 | Nomor telepon | nomor_telepon | VARCHAR(20) |
+| Waktu input | waktu_input | TIMESTAMP |
 
 ### MASTER DATA - DOKTER
 
@@ -71,7 +72,7 @@ Berikut contoh penentuan dan perangkingan fitur untuk contoh Aplikasi Pendataan 
 | Alamat | alamat | alamat |
 | Nomor telepon | nomor_telepon | VARCHAR(20) |
 
-### MASTER DATA - TINDAKAN
+### MASTER DATA - TINDAKAN PENANGANAN
 
 | Atribut | Kolom di Tabel Database | Tipe Data (MySQL) |
 |---|---|---|
@@ -93,3 +94,4 @@ Berikut contoh penentuan dan perangkingan fitur untuk contoh Aplikasi Pendataan 
 | Kode tindakan | kode_tindakan | VARCHAR(20) |
 | Total pembayaran | total_pembayaran | INT |
 | Pembayaran telah lunas ? (0 = belum, 1 = sudah) | is_lunas | TINYINT |
+| Waktu input | waktu_input | TIMESTAMP |
