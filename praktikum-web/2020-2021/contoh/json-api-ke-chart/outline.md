@@ -1,6 +1,9 @@
 ## Membuat Grafik Dari Web API Dengan Javascript - Contoh Kasus Rasio Dokter
 
-[demo](https://mechaid.github.io/course-materials/praktikum-web/2020-2021/contoh/json-api-ke-chart/)
+<!-- 
+[demo](https://mechaid.github.io/course-materials/praktikum-web/2020-2021/contoh/json-api-ke-chart/) 
+[kode](https://github.com/mechaid/course-materials/blob/master/praktikum-web/2020-2021/contoh/json-api-ke-chart/index.html) 
+-->
 
 ### 1. Latar belakang :
   - Grafik dibutuhkan di berbagai aplikasi business intelligence / dashboard :
