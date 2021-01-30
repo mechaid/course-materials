@@ -7,8 +7,10 @@ course-parent-url: ../../../2020-2021
 tags: [javascript, web_api, chart, http_request]
 ---
 
+<!--
 [demo](https://mechaid.github.io/course-materials/praktikum-web/2020-2021/contoh/json-api-ke-chart/) 
 [kode](https://github.com/mechaid/course-materials/blob/master/praktikum-web/2020-2021/contoh/json-api-ke-chart/index.html) 
+-->
 
 ## Latar Belakang
   - Grafik dibutuhkan di berbagai aplikasi business intelligence / dashboard :
