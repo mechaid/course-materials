@@ -1,12 +1,12 @@
 ## Membuat Grafik Dari Web API Dengan Javascript - Contoh Kasus Rasio Dokter
 
 ### 1. Latar belakang :
-   - Grafik dibutuhkan di berbagai aplikasi business intelligence / dashboard :
-		- Menarik kesimpulan prioritas bisnis dari data dengan bantuan visualisasi untuk pengambilan keputusan :
-			- Daerah mana yang paling membutuhkan dokter 
-			- Berapa banyak toko cabang yang tidak memenuhi target
-			- Penyebab utama mahasiswa bernilai jelek
-			- Membandingkan trend peningkatan keuntungan perusahaan 5 tahun terakhir
+  - Grafik dibutuhkan di berbagai aplikasi business intelligence / dashboard :
+    - Menarik kesimpulan prioritas bisnis dari data dengan bantuan visualisasi untuk pengambilan keputusan :
+      - Daerah mana yang paling membutuhkan dokter 
+	- Berapa banyak toko cabang yang tidak memenuhi target
+	- Penyebab utama mahasiswa bernilai jelek
+	- Membandingkan trend peningkatan keuntungan perusahaan 5 tahun terakhir
 
 ### 2. Tentukan kebutuhan konten dan bentuk grafik :
    - kesehatan
