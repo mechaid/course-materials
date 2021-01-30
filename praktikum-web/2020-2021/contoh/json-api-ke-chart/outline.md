@@ -17,6 +17,7 @@ tags: [javascript, web_api, chart, http_request]
       - Berapa banyak toko cabang yang tidak memenuhi target
       - Penyebab utama mahasiswa bernilai jelek
       - Membandingkan trend peningkatan keuntungan perusahaan 5 tahun terakhir
+    - Menguatkan argumen dalam publikasi maupun diskusi pengambilan keputusan dibanding hanya menyajikan data dalam tulisan
 
 ## Langkah Kerja
 ### 1. Tentukan kebutuhan konten dan bentuk grafik
