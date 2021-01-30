@@ -24,3 +24,4 @@ tags: web-design html css javascript
 13. Praktikum Javascript 8 - Progressive Web Application
 14. Praktikum Javascript 9 - NPM project, Express js, Frontend framework 
 
+- [Membuat Grafik Dari Web API Dengan Javascript - Contoh Kasus Rasio Dokter](contoh/json-api-ke-chart/outline)
