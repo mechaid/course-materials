@@ -24,12 +24,13 @@
 
 ### 3. Pilih teknologi Javascript untuk membuat grafik :
   - grafik kompleks dan tingkat kustomasi tinggi :
-    - d3
-    - manipulasi svg tanpa library
+    - d3 [dokumentasi](https://github.com/d3/d3/wiki)
+    - manipulasi element svg (vector) [dokumentasi](https://developer.mozilla.org/en-US/docs/Web/API/SVGElement) 
+    - manipulasi element canvas (raster) [dokumentasi](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API)
   - grafik yang konfigurasinya lebih sederhana :
-    - Chart.js
-    - Highcharts
-    - Chartist.js
+    - Chart.js [dokumentasi](https://www.chartjs.org/docs/latest/general/)
+    - Highcharts [dokumentasi](https://www.highcharts.com/docs/)
+    - Chartist.js [dokumentasi](http://gionkunz.github.io/chartist-js/api-documentation.html)
 
 ### 4. Tentukan format data input dari teknologi pembuat grafik yang dipilih :
   - Chart.js :
@@ -38,13 +39,17 @@
 
 ### 5. Ambil data dari web API :
   - Teknologi HTTP request di javascript :
-    - Bawaan : XMLHttpRequest
-    - Bawaan : Fetch
-    - Axios
-    - Request
+    - Bawaan : XMLHttpRequest [dokumentasi](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest)
+    - Bawaan : Fetch [dokumentasi](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
+    - Axios [dokumentasi](https://github.com/axios/axios#axios-api)
+    - Request [dokumentasi](https://github.com/request/request)
 
 ### 6. Transformasi data dari web API ke format input teknologi pembuat grafik :
   - Fungsi terkait :
     - map()
 
 ### 7. Masukan data hasil transformasi ke teknologi pembuat grafik
+
+### Catatan Penting
+  - Konsep pemrograman berorientasi objek sebagai landasan
+  - Baca dan mengerti class, property, dan method penting dari teknologi yang dipilih, jangan hanya copy paste
