@@ -1,6 +1,6 @@
 ---
 layout: course-page
-title: Membuat Grafik Dari Web API Dengan Javascript - Contoh Kasus Rasio Dokter
+title: Membuat Grafik Dari Web API Dengan Javascript - Contoh Kasus : Rasio Dokter
 description: Memanfaatkan library http request Axios dan pembuat grafik Chart.js
 course-parent: Web Frontend
 course-parent-url: ../../../2020-2021
