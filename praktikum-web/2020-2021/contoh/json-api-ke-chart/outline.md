@@ -22,14 +22,19 @@ tags: [javascript, web_api, chart, http_request]
 ## Langkah Kerja
 ### 1. Tentukan kebutuhan konten dan bentuk grafik
   - kesehatan
-  - rasio dokter per 1000 penduduk :
+  - bagaimana merepresentasikan kebutuhan dokter :
+    - lebih efektif mana satuan yang ditampilkannya :
+      - jumlah dokter per 1000 penduduk
+      - jumlah penduduk per 1 dokter
+      - keterangan rasio ideal WHO dalam setiap 2500 penduduk ada satu dokter (2500:1), BPJS 3000:1
+      - lebih mudah mana masyarakat umum membaca angka koma, atau ribuan
     - data yang tersedia :
       - web API jumlah penduduk
       - web API jumlah dokter
     - bentuk grafik :
       - grafik batang dengan dua nilai sekaligus yaitu :
         - jumlah dokter
-	- jumlah rasio dokter
+	- jumlah penduduk per 1 dokter
     - bentuk interaksi pengguna terhadap grafik
 
 ### 2. Pilih teknologi Javascript untuk membuat grafik
