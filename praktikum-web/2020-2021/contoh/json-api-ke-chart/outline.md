@@ -19,7 +19,7 @@ tags: [javascript, web_api, chart, http_request]
       - Membandingkan trend peningkatan keuntungan perusahaan 5 tahun terakhir
 
 ## Langkah Kerja
-### 1. Tentukan kebutuhan konten dan bentuk grafik :
+### 1. Tentukan kebutuhan konten dan bentuk grafik
   - kesehatan
   - rasio dokter per 1000 penduduk :
     - data yang tersedia :
@@ -31,7 +31,7 @@ tags: [javascript, web_api, chart, http_request]
 	- jumlah rasio dokter
     - bentuk interaksi pengguna terhadap grafik
 
-### 2. Pilih teknologi Javascript untuk membuat grafik :
+### 2. Pilih teknologi Javascript untuk membuat grafik
   - grafik kompleks dan tingkat kustomasi tinggi :
     - d3 [dokumentasi](https://github.com/d3/d3/wiki)
     - manipulasi element svg (vector) [dokumentasi](https://developer.mozilla.org/en-US/docs/Web/API/SVGElement) 
@@ -41,19 +41,19 @@ tags: [javascript, web_api, chart, http_request]
     - Highcharts [dokumentasi](https://www.highcharts.com/docs/)
     - Chartist.js [dokumentasi](http://gionkunz.github.io/chartist-js/api-documentation.html)
 
-### 3. Tentukan format data input dari teknologi pembuat grafik yang dipilih :
+### 3. Tentukan format data input dari teknologi pembuat grafik yang dipilih
   - Chart.js :
     - label berbentuk array contoh : ["Bandung", "Odading", "Ciroyom", "Bunga Bermekaran"]
     - nilai data berbentuk array contoh : [145, 130, 180, 177]
 
-### 4. Ambil data dari web API :
+### 4. Ambil data dari web API
   - Teknologi HTTP request di javascript :
     - Bawaan : XMLHttpRequest [dokumentasi](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest)
     - Bawaan : Fetch [dokumentasi](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
     - Axios [dokumentasi](https://github.com/axios/axios#axios-api)
     - Request [dokumentasi](https://github.com/request/request)
 
-### 5. Transformasi data dari web API ke format input teknologi pembuat grafik :
+### 5. Transformasi data dari web API ke format input teknologi pembuat grafik
   - Fungsi terkait :
     - map()
 
