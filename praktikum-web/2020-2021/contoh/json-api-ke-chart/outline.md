@@ -21,6 +21,12 @@ tags: [javascript, web_api, chart, http_request]
       - Membandingkan trend peningkatan keuntungan perusahaan 5 tahun terakhir
     - Menguatkan argumen dalam publikasi maupun diskusi pengambilan keputusan dibanding hanya menyajikan data dalam tulisan
 
+## Topik Bahasan
+- JSON
+- HTTP Request
+- Map
+- Chart (SVG, Canvas)
+
 ## Langkah Kerja
 ### 1. Tentukan kebutuhan konten dan bentuk grafik
   - kesehatan
