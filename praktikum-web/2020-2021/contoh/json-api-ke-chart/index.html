@@ -1,128 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Membuat Grafik Rasio Dokter Dari Data Web API</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Membuat Grafik Rasio Dokter Dengan Data Dari Web API</title>
 
-    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
 
 </head>
 <body>
+  <canvas id="canvas-untuk-menggambar-grafik"></canvas>
 
-    <canvas id="canvas-untuk-menggambar-grafik"></canvas>
+  <script>
 
-    <script>
+    function buatDataUntukGrafik(dataPenduduk, dataDokter) {
+            
+      var label = dataPenduduk.nilai_per_wilayah.map(function(satuanData) {
+        return satuanData.wilayah; 
+      }); 
 
-        var grafik;
+      var jumlahDokter = dataDokter.nilai_per_wilayah.map(function(satuanData) {
+        return satuanData.nilai_per_tahun[0].nilai;
+      });
 
-        function buatDataUntukGrafik(dataPenduduk, dataDokter) {
+      var jumlahPenduduk = dataPenduduk.nilai_per_wilayah.map(function(satuanData) {
+        return satuanData.nilai_per_tahun[0].nilai;
+      });
 
-            // Kelas-kelas dan method terkait:
-            // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
+      var jumlahPendudukPerDokter = dataPenduduk.nilai_per_wilayah.map(function(satuanData, urutan) {
+        return Math.round(jumlahPenduduk[urutan] / jumlahDokter[urutan]);
+      });
 
-            var labelPerWilayah = dataPenduduk.nilai_per_wilayah.map(function(satuanData) {
-                return satuanData.wilayah;
-            });
+      var garisIdealWHOPendudukPerDokter = dataPenduduk.nilai_per_wilayah.map(function(satuanData) {
+        return 1000;
+      });
 
-            var jumlahDokterPerWilayah = dataDokter.nilai_per_wilayah.map(function(satuanData) {
-                return satuanData.nilai_per_tahun[0].nilai;
-            }); 
+      var garisIdealBPJSPendudukPerDokter = dataPenduduk.nilai_per_wilayah.map(function(satuanData) {
+        return 5000;
+      });
 
-            var jumlahPendudukPerWilayah = dataPenduduk.nilai_per_wilayah.map(function(satuanData) {
-                return satuanData.nilai_per_tahun[0].nilai;
-            }); 
+      var dataUntukGrafik = {
+        labels: label,
+        datasets: [{
+          label: "Rasio Ideal Penduduk per 1 Dokter - WHO",
+          borderColor: "rgb(0, 0, 0)",
+          borderWidth: 1,
+          yAxisID: "sumbu-y-kanan",
+          data: garisIdealWHOPendudukPerDokter,
+          type: 'line'
+        }, {
+          label: "Rasio Ideal Penduduk per 1 Dokter - BPJS",
+          borderColor: "rgb(0, 0, 0)",
+          borderWidth: 3,
+          yAxisID: "sumbu-y-kanan",
+          data: garisIdealBPJSPendudukPerDokter,
+          type: 'line'
+        }, {
+          label: "Jumlah Penduduk",
+          backgroundColor: "rgb(153, 102, 255)",
+          yAxisID: "sumbu-y-kiri",
+          data: jumlahPenduduk
+        }, {
+          label: "Rasio Penduduk per 1 Dokter",
+          backgroundColor: "rgb(255, 64, 64)",
+          yAxisID: "sumbu-y-kanan",
+          data: jumlahPendudukPerDokter
+        }]
+      };
 
-            var rasioDokterPerWilayah = jumlahDokterPerWilayah.map(function(satuanData, urutan) {
-                return jumlahDokterPerWilayah[urutan] / jumlahPendudukPerWilayah[urutan] * 1000;
-            });
+      return dataUntukGrafik;
 
-            var dataContoh = {
-                labels: labelPerWilayah,
-                datasets : [{
-                    label: 'Jumlah Dokter',
-                    backgroundColor: 'rgb(153, 102, 255)',
-                    yAxisID: 'sumbu-y-kiri',
-                    data: jumlahDokterPerWilayah
-                }, {
-                    label: 'Rasio Dokter / 1000 Penduduk',
-                    backgroundColor: 'rgb(255, 159, 64)',
-                    yAxisID: 'sumbu-y-kanan',
-                    data: rasioDokterPerWilayah 
-                }]
-            } 
+    }
 
-            return dataContoh;
+    function buatGrafik(dataPenduduk, dataDokter) {
+
+      var elemenCanvas = document.getElementById("canvas-untuk-menggambar-grafik");
+      var penggambarCanvas = elemenCanvas.getContext("2d");
+
+      var judulGrafik = "Grafik Rasio Jumlah Penduduk Per 1 Dokter";
+      var dataUntukGrafik = buatDataUntukGrafik(dataPenduduk, dataDokter);
+
+      var konfigurasiChartJS = {
+        type: 'bar',
+        data: dataUntukGrafik,
+        options: {
+          responsive: true,
+          title: {
+            display: true,
+            text: judulGrafik
+          },
+          scales: {
+            yAxes: [{
+                type: 'linear',
+                display: true,
+                position: 'left',
+                ticks: {
+                    min: 0
+                },
+                id: 'sumbu-y-kiri'
+              }, {
+                type: 'linear',
+                display: true,
+                position: 'right',
+                ticks: {
+                  min: 0
+                },
+                id: 'sumbu-y-kanan'
+              }]
+          }
         }
+      }
 
-        function buatGrafik(dataPenduduk, dataDokter) {
+      var grafik = new Chart(penggambarCanvas, konfigurasiChartJS);
 
-            // Kelas-kelas terkait:
-            // https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D
-            // https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement
+    }
 
-            var elemenCanvas = document.getElementById("canvas-untuk-menggambar-grafik");
-            var penggambarCanvas = elemenCanvas.getContext("2d");
+    window.onload = function() {
+            
+      var urlDataPenduduk = "https://mechaid.github.io/course-materials/praktikum-web/2020-2021/contoh/json-api-ke-chart/penduduk-jawa-barat-2019.json"; 
+      var urlDataDokter = "https://mechaid.github.io/course-materials/praktikum-web/2020-2021/contoh/json-api-ke-chart/dokter-jawa-barat-2019.json";
 
-            var judulGrafik = "Grafik Rasio Dokter Per 1000 Penduduk";
-            var dataUntukGrafik = buatDataUntukGrafik(dataPenduduk, dataDokter);
+      var dataPenduduk, dataDokter;
 
-            var konfigurasiChartJS = {
-                type: 'bar',
-                data: dataUntukGrafik,
-                options: {
-                    responsive: true,
-                    title: {
-                        display: true,
-                        text: judulGrafik
-                    },
-                    scales: {
-                        yAxes: [{
-                            type: 'linear',
-                            display: true,
-                            position: 'left',
-                            ticks: {
-                                min: 0 
-                            },
-                            id: 'sumbu-y-kiri'
-                        }, {
-                            type: 'linear',
-                            display: true,
-                            position: 'right',
-                            ticks: {
-                                min: 0 
-                            },
-                            id: 'sumbu-y-kanan'
-                        }] 
-                    }
-                }
-            };
+      var requestDataPenduduk = new XMLHttpRequest();
+      requestDataPenduduk.open("GET", urlDataPenduduk, true);
+      requestDataPenduduk.onreadystatechange = function() {
+        if(this.readyState == 4 && this.status == 200) {
+          dataPenduduk = JSON.parse(this.responseText);
+          if(dataDokter !== undefined) {
+            buatGrafik(dataPenduduk, dataDokter);
+          }
 
-            grafik = new Chart(penggambarCanvas, konfigurasiChartJS);
+        } 
+      };
+      requestDataPenduduk.send();
 
-        }
-
-        window.onload = function() {
-
-            // Kelas-kelas terkait:
-            // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
-
-            urlDataPenduduk = "https://mechaid.github.io/course-materials/praktikum-web/2020-2021/contoh/json-api-ke-chart/penduduk-jawa-barat-2019.json";
-            urlDataDokter = "https://mechaid.github.io/course-materials/praktikum-web/2020-2021/contoh/json-api-ke-chart/dokter-jawa-barat-2019.json";
-
-            var mintaDataPenduduk = axios.get(urlDataPenduduk);
-            var mintaDataDokter = axios.get(urlDataDokter);
-
-            Promise.all([mintaDataPenduduk, mintaDataDokter]).then(function(respon) {
-                var dataPenduduk = respon[0].data;
-                var dataDokter = respon[1].data;
-
-                buatGrafik(dataPenduduk, dataDokter);
-
-            });
-
-        };
-    </script>
+      var requestDataDokter = new XMLHttpRequest();
+      requestDataDokter.open("GET", urlDataDokter, true);
+      requestDataDokter.onreadystatechange = function() {
+        if(this.readyState == 4 && this.status == 200) {
+          dataDokter = JSON.parse(this.responseText);
+          if(dataPenduduk !== undefined) {
+            buatGrafik(dataPenduduk, dataDokter);
+          }
+        } 
+      };
+      requestDataDokter.send();
+            
+    };
+  </script>
 </body>
 </html>
