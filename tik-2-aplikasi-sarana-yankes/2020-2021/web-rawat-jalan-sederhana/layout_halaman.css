@@ -1,0 +1,253 @@
+/* 
+Inspirasi perpaduan warna : https://designshack.net/articles/graphics/best-tools-tips-for-choosing-website-color-scheme/
+
+Warna yang digunakan di layout ini : 
+#01151a
+#003a48
+#007792
+#d8d8d8
+#b51b06
+
+#f8f8f8
+
+*/
+
+/* Style untuk semua halaman */
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: #d8d8d8;
+    color: #333333;
+    font-family: Arial;
+}
+
+div, html, body, form, input, button, select, textarea {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+a {
+    color: #007792;
+    text-decoration: none;
+}
+
+ul li {
+}
+
+textarea {
+    font-family: inherit; 
+    font-size: inherit;
+}
+
+.navigasi-atas {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.navigasi-atas-judul {
+    align-items: center;
+    background-color: #b51b06;
+    padding: 12px;
+    text-align: center;
+}
+
+.navigasi-atas-judul a {
+    color: #d8d8d8;
+}
+
+.navigasi-atas-menu {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: stretch;
+    background: #003a48;
+}
+.navigasi-atas-menu a {
+    text-align: center;
+    padding: 12px;
+    color: #d8d8d8;
+    display: block;
+    flex: 1;
+}
+
+.navigasi-atas-menu a:hover {
+    background-color: #007792;
+}
+
+.halaman div, form, input, button, select, textarea {
+    border-radius: 4px;
+    border: none;
+    font-family: inherit; 
+    font-size: inherit;
+}
+
+input, button, select, textarea {
+    background: #f8f8f8;
+}
+
+.halaman {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px 16px;
+}
+
+.halaman .konten {
+    width: 100%;
+    max-width: 1280px;
+}
+
+.navigasi-bawah {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.tombol {
+    padding: 12px 16px;
+}
+
+.tombol-kecil {
+    padding: 4px 8px;
+    font-size: 0.75em;
+}
+
+.tombol, .tombol-kecil {
+    background: #003a48;
+    color: #d8d8d8;
+    border-radius: 8px;
+}
+
+.tombol:hover, .tombol-kecil:hover {
+    background-color: #007792;
+}
+
+.tulisan-peringatan {
+    color: #b51b06;
+    padding: 12px;
+    border: 2px solid #b51b06;
+    margin-bottom: 12px;
+}
+
+.halaman .wadah-tabel {
+    width: 100%;
+    overflow-x:auto;
+    border-radius: 8px;
+}
+
+.wadah-tabel table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.wadah-tabel table tr td, .wadah-tabel table tr th {
+    border: none;
+    padding: 8px;
+}
+
+.wadah-tabel table tr td .tombol-kecil {
+    display: inline-block;
+    margin: 4px;
+}
+
+.wadah-tabel table tr:nth-child(even) {
+  background-color: #e2e2e2;
+}
+
+.wadah-tabel table tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+.wadah-tabel table tr th {
+    background-color: #01151a;
+    color: #d8d8d8;
+}
+
+/* Style untuk halaman login */
+#hal-login h1 {
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 32px;
+    color: #003a48;
+}
+
+#hal-login-ilustrasi {
+    font-size: 72px;
+    color: #003a48;
+}
+
+#hal-login-form {
+    width: 100%;
+    max-width: 480px;
+    padding: 12px;
+    background-color: #007792;
+}
+
+#hal-login-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+#hal-login-form form input {
+    width: 100%;
+    margin-top: 8px;
+    padding: 8px;
+}
+
+#hal-login-form form button {
+    background-color: #003a48;
+    border: none;
+    color: #d8d8d8;
+    width: 100%;
+    margin-top: 12px;
+    padding: 12px;
+    cursor: pointer;
+}
+
+/* Style untuk halaman beranda */
+#hal-index h1 {
+    font-size: 24px;
+}
+
+/* Style untuk halaman pendaftaran pasien dan pendaftaran rawat jalan */
+.halaman .form-daftar {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 12px;
+    background-color: #007792;
+    margin-bottom: 32px;
+    color: #d8d8d8;
+}
+
+.halaman .form-daftar input,
+.halaman .form-daftar select, 
+.halaman .form-daftar textarea,
+.halaman .form-daftar button {
+    width: 100%;
+    margin-top: 12px;
+    padding: 8px;
+}
+
+.halaman .form-daftar input[type=radio] {
+    width: auto;
+}
+
+.halaman .form-daftar button {
+    background-color: #003a48;
+    border: none;
+    color: #d8d8d8;
+    width: 100%;
+    margin-top: 12px;
+    padding: 12px;
+    cursor: pointer;
+}
