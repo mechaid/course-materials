@@ -7,10 +7,8 @@ course-parent-url: ../2020-2021
 tags: database big-data nosql
 ---
 
-## CLO
-
-
 ## Catatan Perkuliahan
+Question by QR code on screen
 
 1. Pengertian, peran, dan perkembangan basis data
    - Apa itu basis data ? - P1 2020-2021 + question
