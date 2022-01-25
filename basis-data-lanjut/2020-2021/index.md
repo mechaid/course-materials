@@ -11,12 +11,12 @@ tags: database big-data nosql
 Question by QR code on screen
 
 1. Pengertian, peran, dan perkembangan basis data
-   - Apa itu basis data ? - P1 2020-2021 + question
-   - Peran basis data di sekitar kita - P1 2020-2021 + question
-   - Peran basis data secara global saat ini - P1 2020-2021 + question
-   - Profesi yang membutuhkan kemampuan basis data - P1 2020-2021 + question
-   - Perkembangan basis data - P1 2020-2021 + question
-   - Bagaimana basis data digunakan pada sistem informasi - P1 2020-2021 + question
+   - Apa itu basis data ? - P1.1 2020-2021
+   - Peran basis data di sekitar kita - P1.2 2020-2021
+   - Peran basis data secara global saat ini - P1.3 2020-2021
+   - Profesi yang membutuhkan kemampuan basis data - P1.4 2020-2021
+   - Perkembangan basis data - P1.5 2020-2021
+   - Bagaimana basis data digunakan pada sistem informasi - P1.6 2020-2021
 3. Review data dan informasi; Perkembangan basis data; Perancangan basis data
 4. Perancangan Basis Data Relasional: Conseptual Model dan Notasi ERD
 5. Perancangan Basis Data Relasional: Entitas, dan Atribut
