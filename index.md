@@ -14,6 +14,7 @@ title: Materi Kuliah
 
 ## Teknik Informatika
 
+- [Basis Data](/course-materials/basis-data/2021-2022/)
 - [Basis Data Lanjut](/course-materials/basis-data-lanjut/2020-2021/)
 - [Kecerdasan Buatan](/course-materials/kecerdasan-buatan/2020-2021/)
 - [Pengolahan Citra](/course-materials/pengolahan-citra/2020-2021/)
