@@ -1,6 +1,6 @@
 ---
 layout: course-index
-title: Silabus Basis Data Lanjut Untuk Kelas 5 SD
+title: Silabus Basis Data Lanjut
 description: Silabus, buku rujukan dan open learning terkait mata kuliah Basis Data Lanjut
 course-parent: Basis Data Lanjut
 course-parent-url: ../2020-2021
