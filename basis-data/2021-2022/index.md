@@ -17,7 +17,7 @@ Question by QR code on screen
    - Perkembangan basis data - P1.5 2020-2021
    - Bagaimana basis data digunakan pada sistem informasi - P1.6 2020-2021
 2. Review data dan informasi; Perkembangan basis data; Perancangan basis data
-   - Data dan informasi - P2.1 2020-2021
+   - Data, informasi, pengetahuan, kebijaksanaan - P2.1 2020-2021
    - Perkembangan basis data - P2.2 2020-2021
    - Pengantar basis data pada data warehouse - P2.3 2020-2021
    - Pengantar basis data pada big data - P2.4 2020-2021
