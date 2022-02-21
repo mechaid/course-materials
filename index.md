@@ -37,3 +37,7 @@ title: Materi Kuliah
 - Mekatronika 1
 - Desain Elemen Mesin 1
 - Proses Manufaktur 1
+
+## Fisika
+
+- Biofisika
